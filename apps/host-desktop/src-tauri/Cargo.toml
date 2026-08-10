@@ -14,3 +14,6 @@ tauri-build = { version = "2", features = [] }
 
 [dependencies]
 tauri = { version = "2", features = [] }
+axum = "0.8"
+tokio = { version = "1", features = ["full"] }
+syncup-game-server = { path = "../../../services/game-server" }

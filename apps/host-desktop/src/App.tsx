@@ -1,13 +1,15 @@
 import { useEffect, useMemo, useRef, useState } from "react";
+import { invoke } from "@tauri-apps/api/core";
 import { QRCodeSVG } from "qrcode.react";
 import { HostConnection } from "./connection";
 import { BrandLogo, VisualOption } from "./BrandLogo";
 import type { GameSummary, HostCredentials, RoomSnapshot, ServerEvent } from "./types";
 import "./styles.css";
 
-const API_URL = import.meta.env.VITE_API_URL ?? (import.meta.env.DEV ? "http://127.0.0.1:3000" : window.location.origin);
+const IS_TAURI = "__TAURI_INTERNALS__" in window;
+const API_URL = import.meta.env.VITE_API_URL ?? (import.meta.env.DEV || IS_TAURI ? "http://127.0.0.1:3000" : window.location.origin);
 const WS_URL = import.meta.env.VITE_WS_URL ?? `${API_URL.replace(/^http/, "ws").replace(/\/$/, "")}/api/ws`;
-const PLAYER_URL = import.meta.env.VITE_PLAYER_WEB_URL ?? (import.meta.env.DEV ? "http://127.0.0.1:5173" : window.location.origin);
+const DEFAULT_PLAYER_URL = import.meta.env.VITE_PLAYER_WEB_URL ?? (import.meta.env.DEV ? "http://127.0.0.1:5173" : IS_TAURI ? "http://127.0.0.1:3000" : window.location.origin);
 const STORAGE_KEY = "syncup-host-session";
 const SETTINGS_KEY = "syncup-host-settings";
 const THEMES = [["neon-night", "Neon Night"], ["ocean-blue", "Ocean Blue"], ["sunset-glow", "Sunset Glow"], ["emerald", "Emerald"], ["purple-galaxy", "Purple Galaxy"], ["sakura", "Sakura"]] as const;
@@ -66,6 +68,7 @@ export default function App() {
   const [joinOpen, setJoinOpen] = useState(false);
   const [splash, setSplash] = useState(() => sessionStorage.getItem("syncup-splash-seen") !== "yes");
   const [notice, setNotice] = useState("");
+  const [playerUrl, setPlayerUrl] = useState(DEFAULT_PLAYER_URL);
   const connection = useRef<HostConnection | null>(null);
   const previousSnapshot = useRef<RoomSnapshot | null>(null);
   const noticeId = useRef(0);
@@ -85,10 +88,28 @@ export default function App() {
   }, [confirmation, joinOpen]);
 
   useEffect(() => {
-    fetch(`${API_URL}/api/games`)
-      .then((response) => response.ok ? response.json() : Promise.reject())
-      .then((catalog: GameSummary[]) => setGames(catalog))
-      .catch(() => setError("The game library is unavailable. Check that the server is running."));
+    let cancelled = false;
+    const loadCatalog = async () => {
+      for (let attempt = 0; attempt < 20 && !cancelled; attempt += 1) {
+        try {
+          const response = await fetch(`${API_URL}/api/games`);
+          if (!response.ok) throw new Error("catalog unavailable");
+          const catalog: GameSummary[] = await response.json();
+          if (!cancelled) { setGames(catalog); setError(""); }
+          return;
+        } catch {
+          await new Promise((resolve) => window.setTimeout(resolve, 250));
+        }
+      }
+      if (!cancelled) setError("The local game server could not start. Close SyncUp and open it again.");
+    };
+    void loadCatalog();
+    return () => { cancelled = true; };
+  }, []);
+
+  useEffect(() => {
+    if (!IS_TAURI || import.meta.env.VITE_PLAYER_WEB_URL) return;
+    invoke<string>("local_player_url").then(setPlayerUrl).catch(() => undefined);
   }, []);
 
   useEffect(() => {
@@ -172,7 +193,7 @@ export default function App() {
       {screen === "home" && <Home onCreate={() => setScreen("games")} onJoin={() => setJoinOpen(true)} />}
       {screen === "games" && <GameLibrary games={games} rounds={rounds} setRounds={setRounds} theme={theme} setTheme={setTheme} hostNickname={hostNickname} setHostNickname={setHostNickname} creating={creating} onChoose={createRoom} onBack={() => setScreen("home")} />}
       {screen === "settings" && <Settings settings={settings} setSettings={setSettings} onBack={() => setScreen("home")} />}
-      {joinOpen && <JoinDialog playerUrl={PLAYER_URL} close={() => setJoinOpen(false)} />}
+      {joinOpen && <JoinDialog playerUrl={playerUrl} close={() => setJoinOpen(false)} />}
       <footer><span>Private rooms</span><span>•</span><span>Up to 12 players</span><span>•</span><span>Real-time play</span></footer>
     </main>
   );
@@ -189,7 +210,7 @@ export default function App() {
       </header>
       {(error || notice) && <Toast message={error || notice} />}
       {snapshot
-        ? <HostGame snapshot={snapshot} connected={connected} playerUrl={`${PLAYER_URL.replace(/\/$/, "")}/?room=${encodeURIComponent(snapshot.roomCode)}`} send={send} resetSession={resetSession} games={games} rounds={rounds} setRounds={setRounds} theme={theme} setTheme={setTheme} confirm={setConfirmation} />
+        ? <HostGame snapshot={snapshot} connected={connected} playerUrl={`${playerUrl.replace(/\/$/, "")}/?room=${encodeURIComponent(snapshot.roomCode)}`} send={send} resetSession={resetSession} games={games} rounds={rounds} setRounds={setRounds} theme={theme} setTheme={setTheme} confirm={setConfirmation} />
         : <Loading title={`Restoring room ${credentials.roomCode}`} subtitle="Syncing the latest room state…" />}
       {confirmation && <ConfirmDialog confirmation={confirmation} close={() => setConfirmation(null)} />}
     </main>
