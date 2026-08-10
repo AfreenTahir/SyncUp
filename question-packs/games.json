@@ -1,0 +1,3795 @@
+[
+  {
+    "id": "priority-sync",
+    "title": "Priority Sync",
+    "description": "Vote for the friend who fits the prompt best.",
+    "icon": "spark",
+    "category": "Friends",
+    "estimatedMinutes": 10,
+    "responseMode": "player_vote",
+    "experience": "competitive",
+    "defaultRounds": 5,
+    "minPlayers": 2,
+    "questions": [
+      {
+        "prompt": "Who would keep the whole group calm in a crisis?",
+        "category": "friendship",
+        "difficulty": "easy"
+      },
+      {
+        "prompt": "Who is most likely to turn a tiny idea into a big success?",
+        "category": "ambition",
+        "difficulty": "easy"
+      },
+      {
+        "prompt": "Who would plan the best surprise weekend?",
+        "category": "friendship",
+        "difficulty": "easy"
+      },
+      {
+        "prompt": "Who is secretly the most competitive?",
+        "category": "personality",
+        "difficulty": "medium"
+      },
+      {
+        "prompt": "Who would survive longest without their phone?",
+        "category": "lifestyle",
+        "difficulty": "medium"
+      },
+      {
+        "prompt": "Who gives the best advice but rarely follows it?",
+        "category": "personality",
+        "difficulty": "medium"
+      },
+      {
+        "prompt": "Who would make the best game-show host?",
+        "category": "talent",
+        "difficulty": "easy"
+      },
+      {
+        "prompt": "Who is most likely to become famous by accident?",
+        "category": "future",
+        "difficulty": "easy"
+      },
+      {
+        "prompt": "Who would befriend a stranger first?",
+        "category": "friendship",
+        "difficulty": "easy"
+      },
+      {
+        "prompt": "Who remembers every tiny detail?",
+        "category": "personality",
+        "difficulty": "easy"
+      },
+      {
+        "prompt": "Who would win a cooking competition with no recipe?",
+        "category": "talent",
+        "difficulty": "medium"
+      },
+      {
+        "prompt": "Who would explore a new city without a map?",
+        "category": "adventure",
+        "difficulty": "medium"
+      },
+      {
+        "prompt": "Who is most likely to adopt a surprise pet?",
+        "category": "lifestyle",
+        "difficulty": "easy"
+      },
+      {
+        "prompt": "Who could talk their way out of almost anything?",
+        "category": "personality",
+        "difficulty": "medium"
+      },
+      {
+        "prompt": "Who would make everyone laugh at the worst moment?",
+        "category": "friendship",
+        "difficulty": "easy"
+      },
+      {
+        "prompt": "Who is most likely to invent something genuinely useful?",
+        "category": "future",
+        "difficulty": "medium"
+      },
+      {
+        "prompt": "Who would be the best teammate on a reality show?",
+        "category": "adventure",
+        "difficulty": "medium"
+      },
+      {
+        "prompt": "Who is most likely to start a successful podcast?",
+        "category": "future",
+        "difficulty": "easy"
+      },
+      {
+        "prompt": "Who would find the best bargain in five minutes?",
+        "category": "talent",
+        "difficulty": "easy"
+      },
+      {
+        "prompt": "Who brings the energy when everyone else is tired?",
+        "category": "friendship",
+        "difficulty": "easy"
+      },
+      {
+        "prompt": "Who would turn a two-minute story into a full documentary?",
+        "category": "friendship",
+        "difficulty": "easy"
+      },
+      {
+        "prompt": "Who would survive longest with only 2% phone battery?",
+        "category": "chaos",
+        "difficulty": "easy"
+      },
+      {
+        "prompt": "Who gives the best advice but never follows it?",
+        "category": "lifestyle",
+        "difficulty": "easy"
+      },
+      {
+        "prompt": "Who would accidentally become famous?",
+        "category": "future",
+        "difficulty": "easy"
+      },
+      {
+        "prompt": "Who is most likely to plan the perfect surprise?",
+        "category": "friendship",
+        "difficulty": "easy"
+      },
+      {
+        "prompt": "Who would be the calmest during a travel disaster?",
+        "category": "chaos",
+        "difficulty": "easy"
+      },
+      {
+        "prompt": "Who could make friends in any room?",
+        "category": "lifestyle",
+        "difficulty": "easy"
+      },
+      {
+        "prompt": "Who would win a debate using pure confidence?",
+        "category": "future",
+        "difficulty": "easy"
+      },
+      {
+        "prompt": "Who always knows the best place to eat?",
+        "category": "friendship",
+        "difficulty": "easy"
+      },
+      {
+        "prompt": "Who would adopt a pet without warning?",
+        "category": "chaos",
+        "difficulty": "easy"
+      },
+      {
+        "prompt": "Who could keep the biggest secret?",
+        "category": "lifestyle",
+        "difficulty": "easy"
+      },
+      {
+        "prompt": "Who would thrive on a reality show?",
+        "category": "future",
+        "difficulty": "easy"
+      }
+    ]
+  },
+  {
+    "id": "would-you-rather",
+    "title": "Would You Rather",
+    "description": "Pick a side and discover who thinks like you.",
+    "icon": "split",
+    "category": "Choices",
+    "estimatedMinutes": 12,
+    "responseMode": "choice",
+    "experience": "voting",
+    "defaultRounds": 6,
+    "minPlayers": 2,
+    "questions": [
+      {
+        "prompt": "Would you rather always be ten minutes early or twenty minutes late?",
+        "category": "life",
+        "difficulty": "easy",
+        "options": [
+          "Always early",
+          "Always late"
+        ]
+      },
+      {
+        "prompt": "Would you rather explore space or the deepest ocean?",
+        "category": "adventure",
+        "difficulty": "easy",
+        "options": [
+          "Space",
+          "Deep ocean"
+        ]
+      },
+      {
+        "prompt": "Would you rather read minds or see ten minutes into the future?",
+        "category": "powers",
+        "difficulty": "medium",
+        "options": [
+          "Read minds",
+          "See the future"
+        ]
+      },
+      {
+        "prompt": "Would you rather give up music or films for a year?",
+        "category": "culture",
+        "difficulty": "medium",
+        "options": [
+          "No music",
+          "No films"
+        ]
+      },
+      {
+        "prompt": "Would you rather live in a busy city or beside a quiet lake?",
+        "category": "lifestyle",
+        "difficulty": "easy",
+        "options": [
+          "Busy city",
+          "Quiet lake"
+        ]
+      },
+      {
+        "prompt": "Would you rather have unlimited travel or unlimited food deliveries?",
+        "category": "lifestyle",
+        "difficulty": "easy",
+        "options": [
+          "Unlimited travel",
+          "Unlimited food"
+        ]
+      },
+      {
+        "prompt": "Would you rather restart today or skip to tomorrow?",
+        "category": "life",
+        "difficulty": "medium",
+        "options": [
+          "Restart today",
+          "Skip to tomorrow"
+        ]
+      },
+      {
+        "prompt": "Would you rather be brilliant at every sport or every instrument?",
+        "category": "talent",
+        "difficulty": "easy",
+        "options": [
+          "Every sport",
+          "Every instrument"
+        ]
+      },
+      {
+        "prompt": "Would you rather have unlimited travel or have your dream home?",
+        "category": "life",
+        "difficulty": "easy",
+        "options": [
+          "Have unlimited travel",
+          "Have your dream home"
+        ]
+      },
+      {
+        "prompt": "Would you rather always say what you think or always know what others think?",
+        "category": "friends",
+        "difficulty": "easy",
+        "options": [
+          "Always say what you think",
+          "Always know what others think"
+        ]
+      },
+      {
+        "prompt": "Would you rather relive your best day or erase your worst day?",
+        "category": "future",
+        "difficulty": "easy",
+        "options": [
+          "Relive your best day",
+          "Erase your worst day"
+        ]
+      },
+      {
+        "prompt": "Would you rather be hilarious or be incredibly wise?",
+        "category": "powers",
+        "difficulty": "easy",
+        "options": [
+          "Be hilarious",
+          "Be incredibly wise"
+        ]
+      },
+      {
+        "prompt": "Would you rather lose your phone for a month or lose music for a month?",
+        "category": "life",
+        "difficulty": "easy",
+        "options": [
+          "Lose your phone for a month",
+          "Lose music for a month"
+        ]
+      },
+      {
+        "prompt": "Would you rather host every party or never organise another plan?",
+        "category": "friends",
+        "difficulty": "easy",
+        "options": [
+          "Host every party",
+          "Never organise another plan"
+        ]
+      },
+      {
+        "prompt": "Would you rather have perfect luck or have perfect timing?",
+        "category": "future",
+        "difficulty": "easy",
+        "options": [
+          "Have perfect luck",
+          "Have perfect timing"
+        ]
+      },
+      {
+        "prompt": "Would you rather meet your future self or meet your childhood self?",
+        "category": "powers",
+        "difficulty": "easy",
+        "options": [
+          "Meet your future self",
+          "Meet your childhood self"
+        ]
+      },
+      {
+        "prompt": "Would you rather be able to pause time or be able to undo one mistake a day?",
+        "category": "life",
+        "difficulty": "easy",
+        "options": [
+          "Be able to pause time",
+          "Be able to undo one mistake a day"
+        ]
+      },
+      {
+        "prompt": "Would you rather get free flights or get free restaurants?",
+        "category": "friends",
+        "difficulty": "easy",
+        "options": [
+          "Get free flights",
+          "Get free restaurants"
+        ]
+      },
+      {
+        "prompt": "Would you rather live beside all your friends or travel constantly with them?",
+        "category": "future",
+        "difficulty": "easy",
+        "options": [
+          "Live beside all your friends",
+          "Travel constantly with them"
+        ]
+      },
+      {
+        "prompt": "Would you rather know every language or play every instrument?",
+        "category": "powers",
+        "difficulty": "easy",
+        "options": [
+          "Know every language",
+          "Play every instrument"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "most-likely-to",
+    "title": "Most Likely To",
+    "description": "Decide which friend is destined for the moment.",
+    "icon": "crown",
+    "category": "Friends",
+    "estimatedMinutes": 10,
+    "responseMode": "player_vote",
+    "experience": "voting",
+    "defaultRounds": 5,
+    "minPlayers": 2,
+    "questions": [
+      {
+        "prompt": "Who is most likely to miss a flight while already at the airport?",
+        "category": "chaos",
+        "difficulty": "easy"
+      },
+      {
+        "prompt": "Who is most likely to write a bestselling book?",
+        "category": "future",
+        "difficulty": "easy"
+      },
+      {
+        "prompt": "Who is most likely to know a completely unexpected fact?",
+        "category": "talent",
+        "difficulty": "easy"
+      },
+      {
+        "prompt": "Who is most likely to become a millionaire?",
+        "category": "future",
+        "difficulty": "medium"
+      },
+      {
+        "prompt": "Who is most likely to get everyone dancing?",
+        "category": "party",
+        "difficulty": "easy"
+      },
+      {
+        "prompt": "Who is most likely to keep a New Year resolution?",
+        "category": "personality",
+        "difficulty": "medium"
+      },
+      {
+        "prompt": "Who is most likely to solve a mystery first?",
+        "category": "talent",
+        "difficulty": "easy"
+      },
+      {
+        "prompt": "Who is most likely to forget why they entered a room?",
+        "category": "chaos",
+        "difficulty": "easy"
+      },
+      {
+        "prompt": "Who is most likely to become a meme?",
+        "category": "chaos",
+        "difficulty": "easy"
+      },
+      {
+        "prompt": "Who is most likely to start a successful side hustle?",
+        "category": "future",
+        "difficulty": "easy"
+      },
+      {
+        "prompt": "Who is most likely to reply after three business days?",
+        "category": "party",
+        "difficulty": "easy"
+      },
+      {
+        "prompt": "Who is most likely to win a karaoke contest?",
+        "category": "chaos",
+        "difficulty": "easy"
+      },
+      {
+        "prompt": "Who is most likely to move abroad on impulse?",
+        "category": "friendship",
+        "difficulty": "easy"
+      },
+      {
+        "prompt": "Who is most likely to remember everyone's birthday?",
+        "category": "future",
+        "difficulty": "easy"
+      },
+      {
+        "prompt": "Who is most likely to order food for the whole table?",
+        "category": "party",
+        "difficulty": "easy"
+      },
+      {
+        "prompt": "Who is most likely to befriend a celebrity?",
+        "category": "chaos",
+        "difficulty": "easy"
+      },
+      {
+        "prompt": "Who is most likely to laugh during a serious moment?",
+        "category": "friendship",
+        "difficulty": "easy"
+      },
+      {
+        "prompt": "Who is most likely to own the coolest home?",
+        "category": "future",
+        "difficulty": "easy"
+      },
+      {
+        "prompt": "Who is most likely to disappear from the group chat then return with news?",
+        "category": "party",
+        "difficulty": "easy"
+      },
+      {
+        "prompt": "Who is most likely to turn a quick errand into an adventure?",
+        "category": "chaos",
+        "difficulty": "easy"
+      },
+      {
+        "prompt": "Who is most likely to know the answer without knowing why?",
+        "category": "personality",
+        "difficulty": "easy"
+      },
+      {
+        "prompt": "Who is most likely to organise the reunion ten years from now?",
+        "category": "future",
+        "difficulty": "easy"
+      }
+    ]
+  },
+  {
+    "id": "never-have-i-ever",
+    "title": "Never Have I Ever",
+    "description": "Reveal harmless surprises one answer at a time.",
+    "icon": "hand",
+    "category": "Icebreakers",
+    "estimatedMinutes": 12,
+    "responseMode": "choice",
+    "experience": "casual",
+    "defaultRounds": 6,
+    "minPlayers": 2,
+    "questions": [
+      {
+        "prompt": "Never have I ever sent a message to the wrong person.",
+        "category": "everyday",
+        "difficulty": "easy",
+        "options": [
+          "I have",
+          "Never"
+        ]
+      },
+      {
+        "prompt": "Never have I ever pretended to understand a film ending.",
+        "category": "culture",
+        "difficulty": "easy",
+        "options": [
+          "I have",
+          "Never"
+        ]
+      },
+      {
+        "prompt": "Never have I ever laughed so hard I cried.",
+        "category": "friends",
+        "difficulty": "easy",
+        "options": [
+          "I have",
+          "Never"
+        ]
+      },
+      {
+        "prompt": "Never have I ever stayed awake until sunrise.",
+        "category": "life",
+        "difficulty": "easy",
+        "options": [
+          "I have",
+          "Never"
+        ]
+      },
+      {
+        "prompt": "Never have I ever eaten dessert before dinner.",
+        "category": "food",
+        "difficulty": "easy",
+        "options": [
+          "I have",
+          "Never"
+        ]
+      },
+      {
+        "prompt": "Never have I ever got lost while following directions.",
+        "category": "travel",
+        "difficulty": "easy",
+        "options": [
+          "I have",
+          "Never"
+        ]
+      },
+      {
+        "prompt": "Never have I ever rewatched a series immediately.",
+        "category": "culture",
+        "difficulty": "easy",
+        "options": [
+          "I have",
+          "Never"
+        ]
+      },
+      {
+        "prompt": "Never have I ever made up lyrics to a song.",
+        "category": "music",
+        "difficulty": "easy",
+        "options": [
+          "I have",
+          "Never"
+        ]
+      },
+      {
+        "prompt": "Never have I ever missed a stop because I was on my phone.",
+        "category": "social",
+        "difficulty": "easy",
+        "options": [
+          "I have",
+          "Not me"
+        ]
+      },
+      {
+        "prompt": "Never have I ever eaten someone else's labelled food.",
+        "category": "friends",
+        "difficulty": "easy",
+        "options": [
+          "I have",
+          "Not me"
+        ]
+      },
+      {
+        "prompt": "Never have I ever stayed awake until sunrise talking.",
+        "category": "everyday",
+        "difficulty": "easy",
+        "options": [
+          "I have",
+          "Not me"
+        ]
+      },
+      {
+        "prompt": "Never have I ever made an excuse to leave a video call.",
+        "category": "funny",
+        "difficulty": "easy",
+        "options": [
+          "I have",
+          "Not me"
+        ]
+      },
+      {
+        "prompt": "Never have I ever bought something because of a trend.",
+        "category": "social",
+        "difficulty": "easy",
+        "options": [
+          "I have",
+          "Not me"
+        ]
+      },
+      {
+        "prompt": "Never have I ever forgotten a close friend's birthday.",
+        "category": "friends",
+        "difficulty": "easy",
+        "options": [
+          "I have",
+          "Not me"
+        ]
+      },
+      {
+        "prompt": "Never have I ever rehearsed an argument in the shower.",
+        "category": "everyday",
+        "difficulty": "easy",
+        "options": [
+          "I have",
+          "Not me"
+        ]
+      },
+      {
+        "prompt": "Never have I ever searched my own name online.",
+        "category": "funny",
+        "difficulty": "easy",
+        "options": [
+          "I have",
+          "Not me"
+        ]
+      },
+      {
+        "prompt": "Never have I ever cancelled plans and felt instantly relaxed.",
+        "category": "social",
+        "difficulty": "easy",
+        "options": [
+          "I have",
+          "Not me"
+        ]
+      },
+      {
+        "prompt": "Never have I ever waved back at someone who was not waving at me.",
+        "category": "funny",
+        "difficulty": "easy",
+        "options": [
+          "I have",
+          "Not me"
+        ]
+      },
+      {
+        "prompt": "Never have I ever opened the fridge and forgotten why.",
+        "category": "everyday",
+        "difficulty": "easy",
+        "options": [
+          "I have",
+          "Not me"
+        ]
+      },
+      {
+        "prompt": "Never have I ever made a playlist for an imaginary event.",
+        "category": "music",
+        "difficulty": "easy",
+        "options": [
+          "I have",
+          "Not me"
+        ]
+      },
+      {
+        "prompt": "Never have I ever blamed autocorrect for my own typo.",
+        "category": "social",
+        "difficulty": "easy",
+        "options": [
+          "I have",
+          "Not me"
+        ]
+      },
+      {
+        "prompt": "Never have I ever watched an entire series in one weekend.",
+        "category": "culture",
+        "difficulty": "easy",
+        "options": [
+          "I have",
+          "Not me"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "truth-or-dare",
+    "title": "Truth or Dare",
+    "description": "Let the room decide: reveal something or take a challenge.",
+    "icon": "bolt",
+    "category": "Challenges",
+    "estimatedMinutes": 15,
+    "responseMode": "choice",
+    "experience": "casual",
+    "defaultRounds": 5,
+    "minPlayers": 2,
+    "questions": [
+      {
+        "prompt": "Choose your challenge for this round.",
+        "category": "warm-up",
+        "difficulty": "easy",
+        "options": [
+          "Truth: share a harmless hidden talent",
+          "Dare: do your best dramatic entrance"
+        ]
+      },
+      {
+        "prompt": "Choose what happens next.",
+        "category": "friends",
+        "difficulty": "easy",
+        "options": [
+          "Truth: name your funniest habit",
+          "Dare: speak like a newsreader for one minute"
+        ]
+      },
+      {
+        "prompt": "Pick your path.",
+        "category": "party",
+        "difficulty": "medium",
+        "options": [
+          "Truth: reveal your most-used emoji",
+          "Dare: invent a dance move"
+        ]
+      },
+      {
+        "prompt": "The room is watching. Truth or dare?",
+        "category": "party",
+        "difficulty": "medium",
+        "options": [
+          "Truth: share your funniest misunderstanding",
+          "Dare: imitate an animal chosen by the room"
+        ]
+      },
+      {
+        "prompt": "Choose a finale challenge.",
+        "category": "finale",
+        "difficulty": "easy",
+        "options": [
+          "Truth: give someone a genuine compliment",
+          "Dare: create a slogan for the group"
+        ]
+      },
+      {
+        "prompt": "What will you choose?",
+        "category": "creative",
+        "difficulty": "easy",
+        "options": [
+          "Truth: describe your dream weekend",
+          "Dare: pitch an imaginary product"
+        ]
+      },
+      {
+        "prompt": "Spotlight challenge 1",
+        "category": "friends",
+        "difficulty": "easy",
+        "options": [
+          "Truth: what is your funniest recent search?",
+          "Dare: recreate your favourite emoji with your face"
+        ]
+      },
+      {
+        "prompt": "Spotlight challenge 2",
+        "category": "funny",
+        "difficulty": "easy",
+        "options": [
+          "Truth: which habit would your friends roast first?",
+          "Dare: give a dramatic weather report for this room"
+        ]
+      },
+      {
+        "prompt": "Spotlight challenge 3",
+        "category": "creative",
+        "difficulty": "easy",
+        "options": [
+          "Truth: what harmless lie do you tell most often?",
+          "Dare: sell the nearest object like a luxury product"
+        ]
+      },
+      {
+        "prompt": "Spotlight challenge 4",
+        "category": "party",
+        "difficulty": "easy",
+        "options": [
+          "Truth: who here would you trust to plan your holiday?",
+          "Dare: invent a handshake with the player beside you"
+        ]
+      },
+      {
+        "prompt": "Spotlight challenge 5",
+        "category": "friends",
+        "difficulty": "easy",
+        "options": [
+          "Truth: what song instantly changes your mood?",
+          "Dare: perform ten seconds of an imaginary music video"
+        ]
+      },
+      {
+        "prompt": "Spotlight challenge 6",
+        "category": "funny",
+        "difficulty": "easy",
+        "options": [
+          "Truth: what tiny thing makes you irrationally happy?",
+          "Dare: narrate your next action like a sports commentator"
+        ]
+      },
+      {
+        "prompt": "Spotlight challenge 7",
+        "category": "creative",
+        "difficulty": "easy",
+        "options": [
+          "Truth: what was your most awkward first impression?",
+          "Dare: speak in a movie-trailer voice until your next turn"
+        ]
+      },
+      {
+        "prompt": "Spotlight challenge 8",
+        "category": "party",
+        "difficulty": "easy",
+        "options": [
+          "Truth: which app gets too much of your time?",
+          "Dare: pose for an imaginary magazine cover"
+        ]
+      },
+      {
+        "prompt": "Spotlight challenge 9",
+        "category": "friends",
+        "difficulty": "easy",
+        "options": [
+          "Truth: what skill do you wish you had overnight?",
+          "Dare: give everyone a playful superhero name"
+        ]
+      },
+      {
+        "prompt": "Spotlight challenge 10",
+        "category": "funny",
+        "difficulty": "easy",
+        "options": [
+          "Truth: what is your most chaotic travel memory?",
+          "Dare: do your best slow-motion victory celebration"
+        ]
+      },
+      {
+        "prompt": "Spotlight challenge 11",
+        "category": "creative",
+        "difficulty": "easy",
+        "options": [
+          "Truth: what opinion will you defend forever?",
+          "Dare: create a three-step dance and teach it"
+        ]
+      },
+      {
+        "prompt": "Spotlight challenge 12",
+        "category": "party",
+        "difficulty": "easy",
+        "options": [
+          "Truth: what compliment do you remember most?",
+          "Dare: deliver a one-line acceptance speech for winning tonight"
+        ]
+      },
+      {
+        "prompt": "Bonus spotlight challenge 1",
+        "category": "friends",
+        "difficulty": "easy",
+        "options": [
+          "Truth: what is the funniest nickname you have had?",
+          "Dare: invent a slogan for this friend group"
+        ]
+      },
+      {
+        "prompt": "Bonus spotlight challenge 2",
+        "category": "funny",
+        "difficulty": "easy",
+        "options": [
+          "Truth: which trend did you secretly enjoy?",
+          "Dare: give a five-second motivational speech to a snack"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "this-or-that",
+    "title": "This or That",
+    "description": "Fast choices, instant group chemistry.",
+    "icon": "switch",
+    "category": "Quick play",
+    "estimatedMinutes": 8,
+    "responseMode": "choice",
+    "experience": "voting",
+    "defaultRounds": 8,
+    "minPlayers": 2,
+    "questions": [
+      {
+        "prompt": "Which comfort food wins?",
+        "category": "food",
+        "difficulty": "easy",
+        "options": [
+          "Pizza",
+          "Burger"
+        ],
+        "visualOptions": [
+          "food-pets:0",
+          "food-pets:1"
+        ]
+      },
+      {
+        "prompt": "Choose your perfect companion.",
+        "category": "pets",
+        "difficulty": "easy",
+        "options": [
+          "Cat",
+          "Dog"
+        ],
+        "visualOptions": [
+          "food-pets:2",
+          "food-pets:3"
+        ]
+      },
+      {
+        "prompt": "Choose your escape.",
+        "category": "travel",
+        "difficulty": "easy",
+        "options": [
+          "Beach",
+          "Mountains"
+        ],
+        "visualOptions": [
+          "places-treats:0",
+          "places-treats:1"
+        ]
+      },
+      {
+        "prompt": "Which treat wins?",
+        "category": "food",
+        "difficulty": "easy",
+        "options": [
+          "Chocolate",
+          "Ice cream"
+        ],
+        "visualOptions": [
+          "places-treats:2",
+          "places-treats:3"
+        ]
+      },
+      {
+        "prompt": "Your perfect free day is…",
+        "category": "lifestyle",
+        "difficulty": "easy",
+        "options": [
+          "Planned",
+          "Spontaneous"
+        ]
+      },
+      {
+        "prompt": "Pick a story format.",
+        "category": "culture",
+        "difficulty": "easy",
+        "options": [
+          "Book",
+          "Film"
+        ]
+      },
+      {
+        "prompt": "Choose your superpower style.",
+        "category": "powers",
+        "difficulty": "easy",
+        "options": [
+          "Fly",
+          "Teleport"
+        ]
+      },
+      {
+        "prompt": "Which atmosphere feels better?",
+        "category": "lifestyle",
+        "difficulty": "easy",
+        "options": [
+          "Sunrise",
+          "Sunset"
+        ]
+      },
+      {
+        "prompt": "Pizza or Burger — which one wins?",
+        "category": "Food & Drinks",
+        "difficulty": "easy",
+        "options": [
+          "Pizza",
+          "Burger"
+        ]
+      },
+      {
+        "prompt": "Coffee or Tea — which one wins?",
+        "category": "Food & Drinks",
+        "difficulty": "easy",
+        "options": [
+          "Coffee",
+          "Tea"
+        ]
+      },
+      {
+        "prompt": "Sweet or Salty — which one wins?",
+        "category": "Food & Drinks",
+        "difficulty": "easy",
+        "options": [
+          "Sweet",
+          "Salty"
+        ]
+      },
+      {
+        "prompt": "Brunch or Midnight snack — which one wins?",
+        "category": "Food & Drinks",
+        "difficulty": "easy",
+        "options": [
+          "Brunch",
+          "Midnight snack"
+        ]
+      },
+      {
+        "prompt": "Homemade meal or Restaurant meal — which one wins?",
+        "category": "Food & Drinks",
+        "difficulty": "easy",
+        "options": [
+          "Homemade meal",
+          "Restaurant meal"
+        ]
+      },
+      {
+        "prompt": "Spicy food or Mild food — which one wins?",
+        "category": "Food & Drinks",
+        "difficulty": "easy",
+        "options": [
+          "Spicy food",
+          "Mild food"
+        ]
+      },
+      {
+        "prompt": "Chocolate or Vanilla — which one wins?",
+        "category": "Food & Drinks",
+        "difficulty": "easy",
+        "options": [
+          "Chocolate",
+          "Vanilla"
+        ]
+      },
+      {
+        "prompt": "Street food or Fine dining — which one wins?",
+        "category": "Food & Drinks",
+        "difficulty": "easy",
+        "options": [
+          "Street food",
+          "Fine dining"
+        ]
+      },
+      {
+        "prompt": "Unlimited desserts or Unlimited snacks — which one wins?",
+        "category": "Food & Drinks",
+        "difficulty": "easy",
+        "options": [
+          "Unlimited desserts",
+          "Unlimited snacks"
+        ]
+      },
+      {
+        "prompt": "Cook together or Order takeaway — which one wins?",
+        "category": "Food & Drinks",
+        "difficulty": "easy",
+        "options": [
+          "Cook together",
+          "Order takeaway"
+        ]
+      },
+      {
+        "prompt": "Laugh at the wrong moment or Trip in front of everyone — which one wins?",
+        "category": "Funny Situations",
+        "difficulty": "easy",
+        "options": [
+          "Laugh at the wrong moment",
+          "Trip in front of everyone"
+        ]
+      },
+      {
+        "prompt": "Always speak in rhyme or Always whisper — which one wins?",
+        "category": "Funny Situations",
+        "difficulty": "easy",
+        "options": [
+          "Always speak in rhyme",
+          "Always whisper"
+        ]
+      },
+      {
+        "prompt": "Sneeze glitter or Hiccup bubbles — which one wins?",
+        "category": "Funny Situations",
+        "difficulty": "easy",
+        "options": [
+          "Sneeze glitter",
+          "Hiccup bubbles"
+        ]
+      },
+      {
+        "prompt": "Wear shoes on the wrong feet or Wear every shirt backwards — which one wins?",
+        "category": "Funny Situations",
+        "difficulty": "easy",
+        "options": [
+          "Wear shoes on the wrong feet",
+          "Wear every shirt backwards"
+        ]
+      },
+      {
+        "prompt": "Accidentally reply all or Accidentally like a five-year-old post — which one wins?",
+        "category": "Funny Situations",
+        "difficulty": "easy",
+        "options": [
+          "Accidentally reply all",
+          "Accidentally like a five-year-old post"
+        ]
+      },
+      {
+        "prompt": "Be followed by theme music or Have a laugh track — which one wins?",
+        "category": "Funny Situations",
+        "difficulty": "easy",
+        "options": [
+          "Be followed by theme music",
+          "Have a laugh track"
+        ]
+      },
+      {
+        "prompt": "Dance whenever music plays or Sing every text message — which one wins?",
+        "category": "Funny Situations",
+        "difficulty": "easy",
+        "options": [
+          "Dance whenever music plays",
+          "Sing every text message"
+        ]
+      },
+      {
+        "prompt": "Lose your keys or Forget why you entered a room — which one wins?",
+        "category": "Funny Situations",
+        "difficulty": "easy",
+        "options": [
+          "Lose your keys",
+          "Forget why you entered a room"
+        ]
+      },
+      {
+        "prompt": "Awkward silence or Awkward small talk — which one wins?",
+        "category": "Funny Situations",
+        "difficulty": "easy",
+        "options": [
+          "Awkward silence",
+          "Awkward small talk"
+        ]
+      },
+      {
+        "prompt": "Tell the joke or Be the joke — which one wins?",
+        "category": "Funny Situations",
+        "difficulty": "easy",
+        "options": [
+          "Tell the joke",
+          "Be the joke"
+        ]
+      },
+      {
+        "prompt": "One best friend or Big friend group — which one wins?",
+        "category": "Friendship",
+        "difficulty": "easy",
+        "options": [
+          "One best friend",
+          "Big friend group"
+        ]
+      },
+      {
+        "prompt": "Spontaneous plans or Planned hangouts — which one wins?",
+        "category": "Friendship",
+        "difficulty": "easy",
+        "options": [
+          "Spontaneous plans",
+          "Planned hangouts"
+        ]
+      },
+      {
+        "prompt": "Voice notes or Long calls — which one wins?",
+        "category": "Friendship",
+        "difficulty": "easy",
+        "options": [
+          "Voice notes",
+          "Long calls"
+        ]
+      },
+      {
+        "prompt": "Honest advice or Comfort first — which one wins?",
+        "category": "Friendship",
+        "difficulty": "easy",
+        "options": [
+          "Honest advice",
+          "Comfort first"
+        ]
+      },
+      {
+        "prompt": "Friends since childhood or Friends who feel brand new — which one wins?",
+        "category": "Friendship",
+        "difficulty": "easy",
+        "options": [
+          "Friends since childhood",
+          "Friends who feel brand new"
+        ]
+      },
+      {
+        "prompt": "Game night or Movie night — which one wins?",
+        "category": "Friendship",
+        "difficulty": "easy",
+        "options": [
+          "Game night",
+          "Movie night"
+        ]
+      },
+      {
+        "prompt": "Roast each other or Hype each other — which one wins?",
+        "category": "Friendship",
+        "difficulty": "easy",
+        "options": [
+          "Roast each other",
+          "Hype each other"
+        ]
+      },
+      {
+        "prompt": "Matching outfits or Matching playlists — which one wins?",
+        "category": "Friendship",
+        "difficulty": "easy",
+        "options": [
+          "Matching outfits",
+          "Matching playlists"
+        ]
+      },
+      {
+        "prompt": "Share food or Share secrets — which one wins?",
+        "category": "Friendship",
+        "difficulty": "easy",
+        "options": [
+          "Share food",
+          "Share secrets"
+        ]
+      },
+      {
+        "prompt": "Road trip together or Staycation together — which one wins?",
+        "category": "Friendship",
+        "difficulty": "easy",
+        "options": [
+          "Road trip together",
+          "Staycation together"
+        ]
+      },
+      {
+        "prompt": "Love marriage or Arranged marriage — which one wins?",
+        "category": "Love & Relationships",
+        "difficulty": "easy",
+        "options": [
+          "Love marriage",
+          "Arranged marriage"
+        ]
+      },
+      {
+        "prompt": "Best friend or Romantic partner — which one wins?",
+        "category": "Love & Relationships",
+        "difficulty": "easy",
+        "options": [
+          "Best friend",
+          "Romantic partner"
+        ]
+      },
+      {
+        "prompt": "Grand gesture or Small daily effort — which one wins?",
+        "category": "Love & Relationships",
+        "difficulty": "easy",
+        "options": [
+          "Grand gesture",
+          "Small daily effort"
+        ]
+      },
+      {
+        "prompt": "Date night out or Cosy date at home — which one wins?",
+        "category": "Love & Relationships",
+        "difficulty": "easy",
+        "options": [
+          "Date night out",
+          "Cosy date at home"
+        ]
+      },
+      {
+        "prompt": "Opposites attract or Similar personalities — which one wins?",
+        "category": "Love & Relationships",
+        "difficulty": "easy",
+        "options": [
+          "Opposites attract",
+          "Similar personalities"
+        ]
+      },
+      {
+        "prompt": "Text all day or One long evening call — which one wins?",
+        "category": "Love & Relationships",
+        "difficulty": "easy",
+        "options": [
+          "Text all day",
+          "One long evening call"
+        ]
+      },
+      {
+        "prompt": "Surprise gift or Thoughtful letter — which one wins?",
+        "category": "Love & Relationships",
+        "difficulty": "easy",
+        "options": [
+          "Surprise gift",
+          "Thoughtful letter"
+        ]
+      },
+      {
+        "prompt": "First love or Last love — which one wins?",
+        "category": "Love & Relationships",
+        "difficulty": "easy",
+        "options": [
+          "First love",
+          "Last love"
+        ]
+      },
+      {
+        "prompt": "Shared hobbies or Separate hobbies — which one wins?",
+        "category": "Love & Relationships",
+        "difficulty": "easy",
+        "options": [
+          "Shared hobbies",
+          "Separate hobbies"
+        ]
+      },
+      {
+        "prompt": "Plan the future or Live in the moment — which one wins?",
+        "category": "Love & Relationships",
+        "difficulty": "easy",
+        "options": [
+          "Plan the future",
+          "Live in the moment"
+        ]
+      },
+      {
+        "prompt": "Spend money or Save money — which one wins?",
+        "category": "Money",
+        "difficulty": "easy",
+        "options": [
+          "Spend money",
+          "Save money"
+        ]
+      },
+      {
+        "prompt": "High salary, less free time or Average salary, more free time — which one wins?",
+        "category": "Money",
+        "difficulty": "easy",
+        "options": [
+          "High salary, less free time",
+          "Average salary, more free time"
+        ]
+      },
+      {
+        "prompt": "Dream house or Travel every year — which one wins?",
+        "category": "Money",
+        "difficulty": "easy",
+        "options": [
+          "Dream house",
+          "Travel every year"
+        ]
+      },
+      {
+        "prompt": "Cash or Card — which one wins?",
+        "category": "Money",
+        "difficulty": "easy",
+        "options": [
+          "Cash",
+          "Card"
+        ]
+      },
+      {
+        "prompt": "Buy quality once or Buy bargains often — which one wins?",
+        "category": "Money",
+        "difficulty": "easy",
+        "options": [
+          "Buy quality once",
+          "Buy bargains often"
+        ]
+      },
+      {
+        "prompt": "Invest early or Enjoy it now — which one wins?",
+        "category": "Money",
+        "difficulty": "easy",
+        "options": [
+          "Invest early",
+          "Enjoy it now"
+        ]
+      },
+      {
+        "prompt": "Split every bill or Take turns paying — which one wins?",
+        "category": "Money",
+        "difficulty": "easy",
+        "options": [
+          "Split every bill",
+          "Take turns paying"
+        ]
+      },
+      {
+        "prompt": "Win a million now or Earn ten million slowly — which one wins?",
+        "category": "Money",
+        "difficulty": "easy",
+        "options": [
+          "Win a million now",
+          "Earn ten million slowly"
+        ]
+      },
+      {
+        "prompt": "Free rent or Free food — which one wins?",
+        "category": "Money",
+        "difficulty": "easy",
+        "options": [
+          "Free rent",
+          "Free food"
+        ]
+      },
+      {
+        "prompt": "Rich and unknown or Famous with average income — which one wins?",
+        "category": "Money",
+        "difficulty": "easy",
+        "options": [
+          "Rich and unknown",
+          "Famous with average income"
+        ]
+      },
+      {
+        "prompt": "Console or PC — which one wins?",
+        "category": "Gaming",
+        "difficulty": "easy",
+        "options": [
+          "Console",
+          "PC"
+        ]
+      },
+      {
+        "prompt": "Single-player story or Online multiplayer — which one wins?",
+        "category": "Gaming",
+        "difficulty": "easy",
+        "options": [
+          "Single-player story",
+          "Online multiplayer"
+        ]
+      },
+      {
+        "prompt": "Strategy or Action — which one wins?",
+        "category": "Gaming",
+        "difficulty": "easy",
+        "options": [
+          "Strategy",
+          "Action"
+        ]
+      },
+      {
+        "prompt": "Retro games or Latest releases — which one wins?",
+        "category": "Gaming",
+        "difficulty": "easy",
+        "options": [
+          "Retro games",
+          "Latest releases"
+        ]
+      },
+      {
+        "prompt": "Play to win or Play for chaos — which one wins?",
+        "category": "Gaming",
+        "difficulty": "easy",
+        "options": [
+          "Play to win",
+          "Play for chaos"
+        ]
+      },
+      {
+        "prompt": "Open world or Linear adventure — which one wins?",
+        "category": "Gaming",
+        "difficulty": "easy",
+        "options": [
+          "Open world",
+          "Linear adventure"
+        ]
+      },
+      {
+        "prompt": "Controller or Keyboard and mouse — which one wins?",
+        "category": "Gaming",
+        "difficulty": "easy",
+        "options": [
+          "Controller",
+          "Keyboard and mouse"
+        ]
+      },
+      {
+        "prompt": "Co-op or Battle royale — which one wins?",
+        "category": "Gaming",
+        "difficulty": "easy",
+        "options": [
+          "Co-op",
+          "Battle royale"
+        ]
+      },
+      {
+        "prompt": "Great graphics or Great gameplay — which one wins?",
+        "category": "Gaming",
+        "difficulty": "easy",
+        "options": [
+          "Great graphics",
+          "Great gameplay"
+        ]
+      },
+      {
+        "prompt": "One favourite forever or A new game every week — which one wins?",
+        "category": "Gaming",
+        "difficulty": "easy",
+        "options": [
+          "One favourite forever",
+          "A new game every week"
+        ]
+      },
+      {
+        "prompt": "Netflix or YouTube — which one wins?",
+        "category": "Movies & TV",
+        "difficulty": "easy",
+        "options": [
+          "Netflix",
+          "YouTube"
+        ]
+      },
+      {
+        "prompt": "Marvel or DC — which one wins?",
+        "category": "Movies & TV",
+        "difficulty": "easy",
+        "options": [
+          "Marvel",
+          "DC"
+        ]
+      },
+      {
+        "prompt": "Comedy or Thriller — which one wins?",
+        "category": "Movies & TV",
+        "difficulty": "easy",
+        "options": [
+          "Comedy",
+          "Thriller"
+        ]
+      },
+      {
+        "prompt": "Cinema or Home streaming — which one wins?",
+        "category": "Movies & TV",
+        "difficulty": "easy",
+        "options": [
+          "Cinema",
+          "Home streaming"
+        ]
+      },
+      {
+        "prompt": "One long series or Many short films — which one wins?",
+        "category": "Movies & TV",
+        "difficulty": "easy",
+        "options": [
+          "One long series",
+          "Many short films"
+        ]
+      },
+      {
+        "prompt": "Subtitles or Dubbed audio — which one wins?",
+        "category": "Movies & TV",
+        "difficulty": "easy",
+        "options": [
+          "Subtitles",
+          "Dubbed audio"
+        ]
+      },
+      {
+        "prompt": "Rewatch a favourite or Try something new — which one wins?",
+        "category": "Movies & TV",
+        "difficulty": "easy",
+        "options": [
+          "Rewatch a favourite",
+          "Try something new"
+        ]
+      },
+      {
+        "prompt": "Hero story or Villain story — which one wins?",
+        "category": "Movies & TV",
+        "difficulty": "easy",
+        "options": [
+          "Hero story",
+          "Villain story"
+        ]
+      },
+      {
+        "prompt": "Happy ending or Plot twist ending — which one wins?",
+        "category": "Movies & TV",
+        "difficulty": "easy",
+        "options": [
+          "Happy ending",
+          "Plot twist ending"
+        ]
+      },
+      {
+        "prompt": "Books or Movies — which one wins?",
+        "category": "Movies & TV",
+        "difficulty": "easy",
+        "options": [
+          "Books",
+          "Movies"
+        ]
+      },
+      {
+        "prompt": "Headphones or Speakers — which one wins?",
+        "category": "Music",
+        "difficulty": "easy",
+        "options": [
+          "Headphones",
+          "Speakers"
+        ]
+      },
+      {
+        "prompt": "Live concert or Perfect studio album — which one wins?",
+        "category": "Music",
+        "difficulty": "easy",
+        "options": [
+          "Live concert",
+          "Perfect studio album"
+        ]
+      },
+      {
+        "prompt": "Old favourites or New releases — which one wins?",
+        "category": "Music",
+        "difficulty": "easy",
+        "options": [
+          "Old favourites",
+          "New releases"
+        ]
+      },
+      {
+        "prompt": "Lyrics or Beat — which one wins?",
+        "category": "Music",
+        "difficulty": "easy",
+        "options": [
+          "Lyrics",
+          "Beat"
+        ]
+      },
+      {
+        "prompt": "Solo artist or Band — which one wins?",
+        "category": "Music",
+        "difficulty": "easy",
+        "options": [
+          "Solo artist",
+          "Band"
+        ]
+      },
+      {
+        "prompt": "Sing along or Dance along — which one wins?",
+        "category": "Music",
+        "difficulty": "easy",
+        "options": [
+          "Sing along",
+          "Dance along"
+        ]
+      },
+      {
+        "prompt": "One playlist or Shuffle everything — which one wins?",
+        "category": "Music",
+        "difficulty": "easy",
+        "options": [
+          "One playlist",
+          "Shuffle everything"
+        ]
+      },
+      {
+        "prompt": "Morning music or Late-night music — which one wins?",
+        "category": "Music",
+        "difficulty": "easy",
+        "options": [
+          "Morning music",
+          "Late-night music"
+        ]
+      },
+      {
+        "prompt": "Front row or Best sound in the middle — which one wins?",
+        "category": "Music",
+        "difficulty": "easy",
+        "options": [
+          "Front row",
+          "Best sound in the middle"
+        ]
+      },
+      {
+        "prompt": "Discover a hidden artist or Meet your favourite artist — which one wins?",
+        "category": "Music",
+        "difficulty": "easy",
+        "options": [
+          "Discover a hidden artist",
+          "Meet your favourite artist"
+        ]
+      },
+      {
+        "prompt": "Instagram or TikTok — which one wins?",
+        "category": "Social Media",
+        "difficulty": "easy",
+        "options": [
+          "Instagram",
+          "TikTok"
+        ]
+      },
+      {
+        "prompt": "Post everything or Stay private — which one wins?",
+        "category": "Social Media",
+        "difficulty": "easy",
+        "options": [
+          "Post everything",
+          "Stay private"
+        ]
+      },
+      {
+        "prompt": "Memes or Reels — which one wins?",
+        "category": "Social Media",
+        "difficulty": "easy",
+        "options": [
+          "Memes",
+          "Reels"
+        ]
+      },
+      {
+        "prompt": "Never use social media again or Never watch TV again — which one wins?",
+        "category": "Social Media",
+        "difficulty": "easy",
+        "options": [
+          "Never use social media again",
+          "Never watch TV again"
+        ]
+      },
+      {
+        "prompt": "Go viral once or Have a small loyal following — which one wins?",
+        "category": "Social Media",
+        "difficulty": "easy",
+        "options": [
+          "Go viral once",
+          "Have a small loyal following"
+        ]
+      },
+      {
+        "prompt": "Perfect feed or Funny feed — which one wins?",
+        "category": "Social Media",
+        "difficulty": "easy",
+        "options": [
+          "Perfect feed",
+          "Funny feed"
+        ]
+      },
+      {
+        "prompt": "Texting or Video calls — which one wins?",
+        "category": "Social Media",
+        "difficulty": "easy",
+        "options": [
+          "Texting",
+          "Video calls"
+        ]
+      },
+      {
+        "prompt": "Read comments or Never read comments — which one wins?",
+        "category": "Social Media",
+        "difficulty": "easy",
+        "options": [
+          "Read comments",
+          "Never read comments"
+        ]
+      },
+      {
+        "prompt": "Public account or Private account — which one wins?",
+        "category": "Social Media",
+        "difficulty": "easy",
+        "options": [
+          "Public account",
+          "Private account"
+        ]
+      },
+      {
+        "prompt": "Delete an old post or Keep the memories — which one wins?",
+        "category": "Social Media",
+        "difficulty": "easy",
+        "options": [
+          "Delete an old post",
+          "Keep the memories"
+        ]
+      },
+      {
+        "prompt": "Beach or Mountains — which one wins?",
+        "category": "Travel",
+        "difficulty": "easy",
+        "options": [
+          "Beach",
+          "Mountains"
+        ]
+      },
+      {
+        "prompt": "Road trip or Flight — which one wins?",
+        "category": "Travel",
+        "difficulty": "easy",
+        "options": [
+          "Road trip",
+          "Flight"
+        ]
+      },
+      {
+        "prompt": "Luxury hotel or Cosy cabin — which one wins?",
+        "category": "Travel",
+        "difficulty": "easy",
+        "options": [
+          "Luxury hotel",
+          "Cosy cabin"
+        ]
+      },
+      {
+        "prompt": "City break or Nature escape — which one wins?",
+        "category": "Travel",
+        "difficulty": "easy",
+        "options": [
+          "City break",
+          "Nature escape"
+        ]
+      },
+      {
+        "prompt": "Travel alone or Travel with friends — which one wins?",
+        "category": "Travel",
+        "difficulty": "easy",
+        "options": [
+          "Travel alone",
+          "Travel with friends"
+        ]
+      },
+      {
+        "prompt": "Detailed itinerary or Explore freely — which one wins?",
+        "category": "Travel",
+        "difficulty": "easy",
+        "options": [
+          "Detailed itinerary",
+          "Explore freely"
+        ]
+      },
+      {
+        "prompt": "Window seat or Aisle seat — which one wins?",
+        "category": "Travel",
+        "difficulty": "easy",
+        "options": [
+          "Window seat",
+          "Aisle seat"
+        ]
+      },
+      {
+        "prompt": "Return to a favourite or Visit somewhere new — which one wins?",
+        "category": "Travel",
+        "difficulty": "easy",
+        "options": [
+          "Return to a favourite",
+          "Visit somewhere new"
+        ]
+      },
+      {
+        "prompt": "Sunrise adventure or Late-night adventure — which one wins?",
+        "category": "Travel",
+        "difficulty": "easy",
+        "options": [
+          "Sunrise adventure",
+          "Late-night adventure"
+        ]
+      },
+      {
+        "prompt": "One month abroad or Many weekend trips — which one wins?",
+        "category": "Travel",
+        "difficulty": "easy",
+        "options": [
+          "One month abroad",
+          "Many weekend trips"
+        ]
+      },
+      {
+        "prompt": "Morning person or Night owl — which one wins?",
+        "category": "Lifestyle",
+        "difficulty": "easy",
+        "options": [
+          "Morning person",
+          "Night owl"
+        ]
+      },
+      {
+        "prompt": "Minimalist home or Cosy clutter — which one wins?",
+        "category": "Lifestyle",
+        "difficulty": "easy",
+        "options": [
+          "Minimalist home",
+          "Cosy clutter"
+        ]
+      },
+      {
+        "prompt": "Busy social calendar or Quiet weekends — which one wins?",
+        "category": "Lifestyle",
+        "difficulty": "easy",
+        "options": [
+          "Busy social calendar",
+          "Quiet weekends"
+        ]
+      },
+      {
+        "prompt": "Gym workout or Outdoor walk — which one wins?",
+        "category": "Lifestyle",
+        "difficulty": "easy",
+        "options": [
+          "Gym workout",
+          "Outdoor walk"
+        ]
+      },
+      {
+        "prompt": "Dress up or Keep it casual — which one wins?",
+        "category": "Lifestyle",
+        "difficulty": "easy",
+        "options": [
+          "Dress up",
+          "Keep it casual"
+        ]
+      },
+      {
+        "prompt": "Big city or Small town — which one wins?",
+        "category": "Lifestyle",
+        "difficulty": "easy",
+        "options": [
+          "Big city",
+          "Small town"
+        ]
+      },
+      {
+        "prompt": "Routine or Variety — which one wins?",
+        "category": "Lifestyle",
+        "difficulty": "easy",
+        "options": [
+          "Routine",
+          "Variety"
+        ]
+      },
+      {
+        "prompt": "Early dinner or Late dinner — which one wins?",
+        "category": "Lifestyle",
+        "difficulty": "easy",
+        "options": [
+          "Early dinner",
+          "Late dinner"
+        ]
+      },
+      {
+        "prompt": "Always on time or Fashionably late — which one wins?",
+        "category": "Lifestyle",
+        "difficulty": "easy",
+        "options": [
+          "Always on time",
+          "Fashionably late"
+        ]
+      },
+      {
+        "prompt": "Productive Sunday or Lazy Sunday — which one wins?",
+        "category": "Lifestyle",
+        "difficulty": "easy",
+        "options": [
+          "Productive Sunday",
+          "Lazy Sunday"
+        ]
+      },
+      {
+        "prompt": "Shower in the morning or Shower at night — which one wins?",
+        "category": "Daily Life",
+        "difficulty": "easy",
+        "options": [
+          "Shower in the morning",
+          "Shower at night"
+        ]
+      },
+      {
+        "prompt": "Clean as you go or Clean everything later — which one wins?",
+        "category": "Daily Life",
+        "difficulty": "easy",
+        "options": [
+          "Clean as you go",
+          "Clean everything later"
+        ]
+      },
+      {
+        "prompt": "Alarm clock or Wake naturally — which one wins?",
+        "category": "Daily Life",
+        "difficulty": "easy",
+        "options": [
+          "Alarm clock",
+          "Wake naturally"
+        ]
+      },
+      {
+        "prompt": "To-do list or Remember it all — which one wins?",
+        "category": "Daily Life",
+        "difficulty": "easy",
+        "options": [
+          "To-do list",
+          "Remember it all"
+        ]
+      },
+      {
+        "prompt": "Cook breakfast or Skip to lunch — which one wins?",
+        "category": "Daily Life",
+        "difficulty": "easy",
+        "options": [
+          "Cook breakfast",
+          "Skip to lunch"
+        ]
+      },
+      {
+        "prompt": "Window open or Room cosy — which one wins?",
+        "category": "Daily Life",
+        "difficulty": "easy",
+        "options": [
+          "Window open",
+          "Room cosy"
+        ]
+      },
+      {
+        "prompt": "Call or Text — which one wins?",
+        "category": "Daily Life",
+        "difficulty": "easy",
+        "options": [
+          "Call",
+          "Text"
+        ]
+      },
+      {
+        "prompt": "Online errands or Go in person — which one wins?",
+        "category": "Daily Life",
+        "difficulty": "easy",
+        "options": [
+          "Online errands",
+          "Go in person"
+        ]
+      },
+      {
+        "prompt": "One big shop or Several small shops — which one wins?",
+        "category": "Daily Life",
+        "difficulty": "easy",
+        "options": [
+          "One big shop",
+          "Several small shops"
+        ]
+      },
+      {
+        "prompt": "Tidy desk or Creative mess — which one wins?",
+        "category": "Daily Life",
+        "difficulty": "easy",
+        "options": [
+          "Tidy desk",
+          "Creative mess"
+        ]
+      },
+      {
+        "prompt": "Group project or Solo assignment — which one wins?",
+        "category": "School & University",
+        "difficulty": "easy",
+        "options": [
+          "Group project",
+          "Solo assignment"
+        ]
+      },
+      {
+        "prompt": "Morning classes or Evening classes — which one wins?",
+        "category": "School & University",
+        "difficulty": "easy",
+        "options": [
+          "Morning classes",
+          "Evening classes"
+        ]
+      },
+      {
+        "prompt": "Exam or Presentation — which one wins?",
+        "category": "School & University",
+        "difficulty": "easy",
+        "options": [
+          "Exam",
+          "Presentation"
+        ]
+      },
+      {
+        "prompt": "Library study or Study at home — which one wins?",
+        "category": "School & University",
+        "difficulty": "easy",
+        "options": [
+          "Library study",
+          "Study at home"
+        ]
+      },
+      {
+        "prompt": "Take perfect notes or Listen closely — which one wins?",
+        "category": "School & University",
+        "difficulty": "easy",
+        "options": [
+          "Take perfect notes",
+          "Listen closely"
+        ]
+      },
+      {
+        "prompt": "Favourite teacher or Favourite subject — which one wins?",
+        "category": "School & University",
+        "difficulty": "easy",
+        "options": [
+          "Favourite teacher",
+          "Favourite subject"
+        ]
+      },
+      {
+        "prompt": "School trip or Sports day — which one wins?",
+        "category": "School & University",
+        "difficulty": "easy",
+        "options": [
+          "School trip",
+          "Sports day"
+        ]
+      },
+      {
+        "prompt": "Uniform or Wear your own clothes — which one wins?",
+        "category": "School & University",
+        "difficulty": "easy",
+        "options": [
+          "Uniform",
+          "Wear your own clothes"
+        ]
+      },
+      {
+        "prompt": "Learn online or Learn in person — which one wins?",
+        "category": "School & University",
+        "difficulty": "easy",
+        "options": [
+          "Learn online",
+          "Learn in person"
+        ]
+      },
+      {
+        "prompt": "Graduate early or Enjoy every semester — which one wins?",
+        "category": "School & University",
+        "difficulty": "easy",
+        "options": [
+          "Graduate early",
+          "Enjoy every semester"
+        ]
+      },
+      {
+        "prompt": "Dream job, average pay or Boring job, amazing pay — which one wins?",
+        "category": "Careers",
+        "difficulty": "easy",
+        "options": [
+          "Dream job, average pay",
+          "Boring job, amazing pay"
+        ]
+      },
+      {
+        "prompt": "Work from home or Work in an office — which one wins?",
+        "category": "Careers",
+        "difficulty": "easy",
+        "options": [
+          "Work from home",
+          "Work in an office"
+        ]
+      },
+      {
+        "prompt": "Lead the team or Master your craft — which one wins?",
+        "category": "Careers",
+        "difficulty": "easy",
+        "options": [
+          "Lead the team",
+          "Master your craft"
+        ]
+      },
+      {
+        "prompt": "Stable career or Risky startup — which one wins?",
+        "category": "Careers",
+        "difficulty": "easy",
+        "options": [
+          "Stable career",
+          "Risky startup"
+        ]
+      },
+      {
+        "prompt": "Four-day week or Shorter workdays — which one wins?",
+        "category": "Careers",
+        "difficulty": "easy",
+        "options": [
+          "Four-day week",
+          "Shorter workdays"
+        ]
+      },
+      {
+        "prompt": "Creative freedom or Clear instructions — which one wins?",
+        "category": "Careers",
+        "difficulty": "easy",
+        "options": [
+          "Creative freedom",
+          "Clear instructions"
+        ]
+      },
+      {
+        "prompt": "Travel for work or Never commute — which one wins?",
+        "category": "Careers",
+        "difficulty": "easy",
+        "options": [
+          "Travel for work",
+          "Never commute"
+        ]
+      },
+      {
+        "prompt": "Public praise or Private bonus — which one wins?",
+        "category": "Careers",
+        "difficulty": "easy",
+        "options": [
+          "Public praise",
+          "Private bonus"
+        ]
+      },
+      {
+        "prompt": "Work with friends or Keep work separate — which one wins?",
+        "category": "Careers",
+        "difficulty": "easy",
+        "options": [
+          "Work with friends",
+          "Keep work separate"
+        ]
+      },
+      {
+        "prompt": "Retire early or Work on something meaningful — which one wins?",
+        "category": "Careers",
+        "difficulty": "easy",
+        "options": [
+          "Retire early",
+          "Work on something meaningful"
+        ]
+      },
+      {
+        "prompt": "Ferrari or Lamborghini — which one wins?",
+        "category": "Cars",
+        "difficulty": "easy",
+        "options": [
+          "Ferrari",
+          "Lamborghini"
+        ]
+      },
+      {
+        "prompt": "Electric car or Classic petrol car — which one wins?",
+        "category": "Cars",
+        "difficulty": "easy",
+        "options": [
+          "Electric car",
+          "Classic petrol car"
+        ]
+      },
+      {
+        "prompt": "Sports car or Luxury SUV — which one wins?",
+        "category": "Cars",
+        "difficulty": "easy",
+        "options": [
+          "Sports car",
+          "Luxury SUV"
+        ]
+      },
+      {
+        "prompt": "Drive or Be driven — which one wins?",
+        "category": "Cars",
+        "difficulty": "easy",
+        "options": [
+          "Drive",
+          "Be driven"
+        ]
+      },
+      {
+        "prompt": "Manual or Automatic — which one wins?",
+        "category": "Cars",
+        "difficulty": "easy",
+        "options": [
+          "Manual",
+          "Automatic"
+        ]
+      },
+      {
+        "prompt": "Fast car or Comfortable car — which one wins?",
+        "category": "Cars",
+        "difficulty": "easy",
+        "options": [
+          "Fast car",
+          "Comfortable car"
+        ]
+      },
+      {
+        "prompt": "Roadster or Off-roader — which one wins?",
+        "category": "Cars",
+        "difficulty": "easy",
+        "options": [
+          "Roadster",
+          "Off-roader"
+        ]
+      },
+      {
+        "prompt": "Perfect sound system or Perfect interior — which one wins?",
+        "category": "Cars",
+        "difficulty": "easy",
+        "options": [
+          "Perfect sound system",
+          "Perfect interior"
+        ]
+      },
+      {
+        "prompt": "Own one dream car or Try a new car every year — which one wins?",
+        "category": "Cars",
+        "difficulty": "easy",
+        "options": [
+          "Own one dream car",
+          "Try a new car every year"
+        ]
+      },
+      {
+        "prompt": "Scenic route or Fastest route — which one wins?",
+        "category": "Cars",
+        "difficulty": "easy",
+        "options": [
+          "Scenic route",
+          "Fastest route"
+        ]
+      },
+      {
+        "prompt": "Cats or Dogs — which one wins?",
+        "category": "Animals",
+        "difficulty": "easy",
+        "options": [
+          "Cats",
+          "Dogs"
+        ]
+      },
+      {
+        "prompt": "Dolphins or Penguins — which one wins?",
+        "category": "Animals",
+        "difficulty": "easy",
+        "options": [
+          "Dolphins",
+          "Penguins"
+        ]
+      },
+      {
+        "prompt": "Lion or Tiger — which one wins?",
+        "category": "Animals",
+        "difficulty": "easy",
+        "options": [
+          "Lion",
+          "Tiger"
+        ]
+      },
+      {
+        "prompt": "Tiny dragon or Giant friendly dog — which one wins?",
+        "category": "Animals",
+        "difficulty": "easy",
+        "options": [
+          "Tiny dragon",
+          "Giant friendly dog"
+        ]
+      },
+      {
+        "prompt": "Talk to animals or Understand every bird — which one wins?",
+        "category": "Animals",
+        "difficulty": "easy",
+        "options": [
+          "Talk to animals",
+          "Understand every bird"
+        ]
+      },
+      {
+        "prompt": "Safari or Aquarium — which one wins?",
+        "category": "Animals",
+        "difficulty": "easy",
+        "options": [
+          "Safari",
+          "Aquarium"
+        ]
+      },
+      {
+        "prompt": "Pet that talks or Pet that teleports — which one wins?",
+        "category": "Animals",
+        "difficulty": "easy",
+        "options": [
+          "Pet that talks",
+          "Pet that teleports"
+        ]
+      },
+      {
+        "prompt": "Panda or Koala — which one wins?",
+        "category": "Animals",
+        "difficulty": "easy",
+        "options": [
+          "Panda",
+          "Koala"
+        ]
+      },
+      {
+        "prompt": "Horse riding or Swimming with dolphins — which one wins?",
+        "category": "Animals",
+        "difficulty": "easy",
+        "options": [
+          "Horse riding",
+          "Swimming with dolphins"
+        ]
+      },
+      {
+        "prompt": "Rescue pet or Raise a pet from young — which one wins?",
+        "category": "Animals",
+        "difficulty": "easy",
+        "options": [
+          "Rescue pet",
+          "Raise a pet from young"
+        ]
+      },
+      {
+        "prompt": "Online shopping or In-store shopping — which one wins?",
+        "category": "Shopping",
+        "difficulty": "easy",
+        "options": [
+          "Online shopping",
+          "In-store shopping"
+        ]
+      },
+      {
+        "prompt": "One luxury item or Five useful items — which one wins?",
+        "category": "Shopping",
+        "difficulty": "easy",
+        "options": [
+          "One luxury item",
+          "Five useful items"
+        ]
+      },
+      {
+        "prompt": "Wishlist or Impulse buy — which one wins?",
+        "category": "Shopping",
+        "difficulty": "easy",
+        "options": [
+          "Wishlist",
+          "Impulse buy"
+        ]
+      },
+      {
+        "prompt": "New clothes or New tech — which one wins?",
+        "category": "Shopping",
+        "difficulty": "easy",
+        "options": [
+          "New clothes",
+          "New tech"
+        ]
+      },
+      {
+        "prompt": "Big sale or Perfect item at full price — which one wins?",
+        "category": "Shopping",
+        "difficulty": "easy",
+        "options": [
+          "Big sale",
+          "Perfect item at full price"
+        ]
+      },
+      {
+        "prompt": "Shop alone or Shop with a friend — which one wins?",
+        "category": "Shopping",
+        "difficulty": "easy",
+        "options": [
+          "Shop alone",
+          "Shop with a friend"
+        ]
+      },
+      {
+        "prompt": "Brand name or Best quality — which one wins?",
+        "category": "Shopping",
+        "difficulty": "easy",
+        "options": [
+          "Brand name",
+          "Best quality"
+        ]
+      },
+      {
+        "prompt": "Free delivery or Same-day pickup — which one wins?",
+        "category": "Shopping",
+        "difficulty": "easy",
+        "options": [
+          "Free delivery",
+          "Same-day pickup"
+        ]
+      },
+      {
+        "prompt": "Gift card or Mystery gift — which one wins?",
+        "category": "Shopping",
+        "difficulty": "easy",
+        "options": [
+          "Gift card",
+          "Mystery gift"
+        ]
+      },
+      {
+        "prompt": "Keep the receipt or Trust the choice — which one wins?",
+        "category": "Shopping",
+        "difficulty": "easy",
+        "options": [
+          "Keep the receipt",
+          "Trust the choice"
+        ]
+      },
+      {
+        "prompt": "Football or Cricket — which one wins?",
+        "category": "Sports",
+        "difficulty": "easy",
+        "options": [
+          "Football",
+          "Cricket"
+        ]
+      },
+      {
+        "prompt": "Play or Watch — which one wins?",
+        "category": "Sports",
+        "difficulty": "easy",
+        "options": [
+          "Play",
+          "Watch"
+        ]
+      },
+      {
+        "prompt": "Team sport or Solo sport — which one wins?",
+        "category": "Sports",
+        "difficulty": "easy",
+        "options": [
+          "Team sport",
+          "Solo sport"
+        ]
+      },
+      {
+        "prompt": "Indoor or Outdoor — which one wins?",
+        "category": "Sports",
+        "difficulty": "easy",
+        "options": [
+          "Indoor",
+          "Outdoor"
+        ]
+      },
+      {
+        "prompt": "Last-minute winner or Dominant victory — which one wins?",
+        "category": "Sports",
+        "difficulty": "easy",
+        "options": [
+          "Last-minute winner",
+          "Dominant victory"
+        ]
+      },
+      {
+        "prompt": "Speed or Strength — which one wins?",
+        "category": "Sports",
+        "difficulty": "easy",
+        "options": [
+          "Speed",
+          "Strength"
+        ]
+      },
+      {
+        "prompt": "Summer Olympics or Winter Olympics — which one wins?",
+        "category": "Sports",
+        "difficulty": "easy",
+        "options": [
+          "Summer Olympics",
+          "Winter Olympics"
+        ]
+      },
+      {
+        "prompt": "Train every day or Big game once a week — which one wins?",
+        "category": "Sports",
+        "difficulty": "easy",
+        "options": [
+          "Train every day",
+          "Big game once a week"
+        ]
+      },
+      {
+        "prompt": "Home crowd or Away-day adventure — which one wins?",
+        "category": "Sports",
+        "difficulty": "easy",
+        "options": [
+          "Home crowd",
+          "Away-day adventure"
+        ]
+      },
+      {
+        "prompt": "Trophy or Personal record — which one wins?",
+        "category": "Sports",
+        "difficulty": "easy",
+        "options": [
+          "Trophy",
+          "Personal record"
+        ]
+      },
+      {
+        "prompt": "Invisible for a day or Read minds for an hour — which one wins?",
+        "category": "Random & Weird",
+        "difficulty": "easy",
+        "options": [
+          "Invisible for a day",
+          "Read minds for an hour"
+        ]
+      },
+      {
+        "prompt": "Live without music or Live without films — which one wins?",
+        "category": "Random & Weird",
+        "difficulty": "easy",
+        "options": [
+          "Live without music",
+          "Live without films"
+        ]
+      },
+      {
+        "prompt": "Always know the time or Always know the weather — which one wins?",
+        "category": "Random & Weird",
+        "difficulty": "easy",
+        "options": [
+          "Always know the time",
+          "Always know the weather"
+        ]
+      },
+      {
+        "prompt": "Moon holiday or Underwater hotel — which one wins?",
+        "category": "Random & Weird",
+        "difficulty": "easy",
+        "options": [
+          "Moon holiday",
+          "Underwater hotel"
+        ]
+      },
+      {
+        "prompt": "Only speak truth or Hear every thought — which one wins?",
+        "category": "Random & Weird",
+        "difficulty": "easy",
+        "options": [
+          "Only speak truth",
+          "Hear every thought"
+        ]
+      },
+      {
+        "prompt": "Pause time or Rewind ten minutes — which one wins?",
+        "category": "Random & Weird",
+        "difficulty": "easy",
+        "options": [
+          "Pause time",
+          "Rewind ten minutes"
+        ]
+      },
+      {
+        "prompt": "Have three arms or Have eyes in the back of your head — which one wins?",
+        "category": "Random & Weird",
+        "difficulty": "easy",
+        "options": [
+          "Have three arms",
+          "Have eyes in the back of your head"
+        ]
+      },
+      {
+        "prompt": "Never queue or Never hit traffic — which one wins?",
+        "category": "Random & Weird",
+        "difficulty": "easy",
+        "options": [
+          "Never queue",
+          "Never hit traffic"
+        ]
+      },
+      {
+        "prompt": "Swap lives with a friend or Swap lives with a celebrity — which one wins?",
+        "category": "Random & Weird",
+        "difficulty": "easy",
+        "options": [
+          "Swap lives with a friend",
+          "Swap lives with a celebrity"
+        ]
+      },
+      {
+        "prompt": "Live in a treehouse or Live on a houseboat — which one wins?",
+        "category": "Random & Weird",
+        "difficulty": "easy",
+        "options": [
+          "Live in a treehouse",
+          "Live on a houseboat"
+        ]
+      },
+      {
+        "prompt": "Super speed or Teleportation — which one wins?",
+        "category": "Hypothetical",
+        "difficulty": "easy",
+        "options": [
+          "Super speed",
+          "Teleportation"
+        ]
+      },
+      {
+        "prompt": "Know your future or Change your past — which one wins?",
+        "category": "Hypothetical",
+        "difficulty": "easy",
+        "options": [
+          "Know your future",
+          "Change your past"
+        ]
+      },
+      {
+        "prompt": "Be lucky or Be brilliant — which one wins?",
+        "category": "Hypothetical",
+        "difficulty": "easy",
+        "options": [
+          "Be lucky",
+          "Be brilliant"
+        ]
+      },
+      {
+        "prompt": "Unlimited time or Unlimited money — which one wins?",
+        "category": "Hypothetical",
+        "difficulty": "easy",
+        "options": [
+          "Unlimited time",
+          "Unlimited money"
+        ]
+      },
+      {
+        "prompt": "Perfect memory or Learn anything instantly — which one wins?",
+        "category": "Hypothetical",
+        "difficulty": "easy",
+        "options": [
+          "Perfect memory",
+          "Learn anything instantly"
+        ]
+      },
+      {
+        "prompt": "Save the world anonymously or Be celebrated for a small invention — which one wins?",
+        "category": "Hypothetical",
+        "difficulty": "easy",
+        "options": [
+          "Save the world anonymously",
+          "Be celebrated for a small invention"
+        ]
+      },
+      {
+        "prompt": "Live 200 years or Live one perfect century — which one wins?",
+        "category": "Hypothetical",
+        "difficulty": "easy",
+        "options": [
+          "Live 200 years",
+          "Live one perfect century"
+        ]
+      },
+      {
+        "prompt": "Explore space or Explore the deep ocean — which one wins?",
+        "category": "Hypothetical",
+        "difficulty": "easy",
+        "options": [
+          "Explore space",
+          "Explore the deep ocean"
+        ]
+      },
+      {
+        "prompt": "One wish today or Three wishes in ten years — which one wins?",
+        "category": "Hypothetical",
+        "difficulty": "easy",
+        "options": [
+          "One wish today",
+          "Three wishes in ten years"
+        ]
+      },
+      {
+        "prompt": "Restart this year or Skip to next year — which one wins?",
+        "category": "Hypothetical",
+        "difficulty": "easy",
+        "options": [
+          "Restart this year",
+          "Skip to next year"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "guess-the-emoji",
+    "title": "Guess the Emoji",
+    "description": "Decode emoji clues before your friends do.",
+    "icon": "smile",
+    "category": "Puzzles",
+    "estimatedMinutes": 10,
+    "responseMode": "quiz",
+    "experience": "competitive",
+    "defaultRounds": 6,
+    "minPlayers": 2,
+    "questions": [
+      {
+        "prompt": "Decode: 🦁👑",
+        "category": "films",
+        "difficulty": "easy",
+        "options": [
+          "The Lion King",
+          "Jungle Book",
+          "Madagascar",
+          "King Kong"
+        ],
+        "correctOption": 0
+      },
+      {
+        "prompt": "Decode: 🕷️👨",
+        "category": "heroes",
+        "difficulty": "easy",
+        "options": [
+          "Batman",
+          "Spider-Man",
+          "Ant-Man",
+          "Superman"
+        ],
+        "correctOption": 1
+      },
+      {
+        "prompt": "Decode: ❄️👸",
+        "category": "films",
+        "difficulty": "easy",
+        "options": [
+          "Moana",
+          "Frozen",
+          "Brave",
+          "Encanto"
+        ],
+        "correctOption": 1
+      },
+      {
+        "prompt": "Decode: 🍎📱",
+        "category": "brands",
+        "difficulty": "easy",
+        "options": [
+          "Samsung",
+          "Apple",
+          "Nokia",
+          "Sony"
+        ],
+        "correctOption": 1
+      },
+      {
+        "prompt": "Decode: 🐼🥋",
+        "category": "films",
+        "difficulty": "easy",
+        "options": [
+          "Kung Fu Panda",
+          "Mulan",
+          "Karate Kid",
+          "Puss in Boots"
+        ],
+        "correctOption": 0
+      },
+      {
+        "prompt": "Decode: 🌧️🏹",
+        "category": "phrases",
+        "difficulty": "medium",
+        "options": [
+          "Rain check",
+          "Rainbow",
+          "Storm chaser",
+          "Under the weather"
+        ],
+        "correctOption": 1
+      },
+      {
+        "prompt": "Decode: 👻🔫",
+        "category": "films",
+        "difficulty": "medium",
+        "options": [
+          "Casper",
+          "Ghostbusters",
+          "Beetlejuice",
+          "Coco"
+        ],
+        "correctOption": 1
+      },
+      {
+        "prompt": "Decode: 🐢🥷",
+        "category": "heroes",
+        "difficulty": "easy",
+        "options": [
+          "Ninja Turtles",
+          "Power Rangers",
+          "Transformers",
+          "The Incredibles"
+        ],
+        "correctOption": 0
+      },
+      {
+        "prompt": "Decode this emoji clue: 🧊 🚢 💔",
+        "category": "films",
+        "difficulty": "easy",
+        "options": [
+          "Titanic",
+          "Frozen",
+          "Jaws",
+          "The Notebook"
+        ],
+        "correctOption": 0
+      },
+      {
+        "prompt": "Decode this emoji clue: 🦁 👑 🌅",
+        "category": "phrases",
+        "difficulty": "easy",
+        "options": [
+          "The Lion King",
+          "Madagascar",
+          "Gladiator",
+          "Tarzan"
+        ],
+        "correctOption": 0
+      },
+      {
+        "prompt": "Decode this emoji clue: 👻 🚫 🚗",
+        "category": "everyday",
+        "difficulty": "easy",
+        "options": [
+          "Ghostbusters",
+          "Cars",
+          "Casper",
+          "Fast & Furious"
+        ],
+        "correctOption": 0
+      },
+      {
+        "prompt": "Decode this emoji clue: 🕷️ 👨 🏙️",
+        "category": "travel",
+        "difficulty": "easy",
+        "options": [
+          "Spider-Man",
+          "Batman",
+          "Superman",
+          "Ant-Man"
+        ],
+        "correctOption": 0
+      },
+      {
+        "prompt": "Decode this emoji clue: 🐼 🥋",
+        "category": "films",
+        "difficulty": "easy",
+        "options": [
+          "Kung Fu Panda",
+          "Karate Kid",
+          "Mulan",
+          "Rocky"
+        ],
+        "correctOption": 0
+      },
+      {
+        "prompt": "Decode this emoji clue: 👠 🕛 🎃",
+        "category": "phrases",
+        "difficulty": "easy",
+        "options": [
+          "Cinderella",
+          "Frozen",
+          "Barbie",
+          "Pretty Woman"
+        ],
+        "correctOption": 0
+      },
+      {
+        "prompt": "Decode this emoji clue: 🚀 🌕 👨‍🚀",
+        "category": "everyday",
+        "difficulty": "easy",
+        "options": [
+          "Moon landing",
+          "Star Wars",
+          "Rocket League",
+          "Gravity"
+        ],
+        "correctOption": 0
+      },
+      {
+        "prompt": "Decode this emoji clue: ☕ ❤️ 📖",
+        "category": "travel",
+        "difficulty": "easy",
+        "options": [
+          "Cosy reading",
+          "Coffee shop",
+          "Study time",
+          "Morning meeting"
+        ],
+        "correctOption": 0
+      },
+      {
+        "prompt": "Decode this emoji clue: 📱 🔋 1️⃣",
+        "category": "films",
+        "difficulty": "easy",
+        "options": [
+          "Low battery",
+          "New phone",
+          "No signal",
+          "Airplane mode"
+        ],
+        "correctOption": 0
+      },
+      {
+        "prompt": "Decode this emoji clue: 🌧️ 🍿 🎬",
+        "category": "phrases",
+        "difficulty": "easy",
+        "options": [
+          "Movie night",
+          "Rain delay",
+          "Cinema trip",
+          "Weekend plans"
+        ],
+        "correctOption": 0
+      },
+      {
+        "prompt": "Decode this emoji clue: ✈️ 🧳 🌍",
+        "category": "everyday",
+        "difficulty": "easy",
+        "options": [
+          "World travel",
+          "Lost luggage",
+          "Airport job",
+          "Map reading"
+        ],
+        "correctOption": 0
+      },
+      {
+        "prompt": "Decode this emoji clue: 🎤 ⭐ 🏆",
+        "category": "travel",
+        "difficulty": "easy",
+        "options": [
+          "Singing champion",
+          "Award show",
+          "Pop star",
+          "Karaoke night"
+        ],
+        "correctOption": 0
+      }
+    ]
+  },
+  {
+    "id": "two-truths-one-lie",
+    "title": "Two Truths & a Lie",
+    "description": "Spot the statement that does not belong.",
+    "icon": "mask",
+    "category": "Trivia",
+    "estimatedMinutes": 12,
+    "responseMode": "quiz",
+    "experience": "competitive",
+    "defaultRounds": 5,
+    "minPlayers": 2,
+    "questions": [
+      {
+        "prompt": "Which statement about octopuses is the lie?",
+        "category": "nature",
+        "difficulty": "medium",
+        "options": [
+          "They have three hearts",
+          "Their blood is blue",
+          "They have bones",
+          "They can change colour"
+        ],
+        "correctOption": 2
+      },
+      {
+        "prompt": "Which statement about space is the lie?",
+        "category": "science",
+        "difficulty": "medium",
+        "options": [
+          "Venus is hotter than Mercury",
+          "Sound travels in space",
+          "A day on Venus is very long",
+          "Saturn could float in water"
+        ],
+        "correctOption": 1
+      },
+      {
+        "prompt": "Which food fact is the lie?",
+        "category": "food",
+        "difficulty": "medium",
+        "options": [
+          "Bananas are berries",
+          "Strawberries are berries",
+          "Honey can last for years",
+          "Carrots were once purple"
+        ],
+        "correctOption": 1
+      },
+      {
+        "prompt": "Which animal fact is the lie?",
+        "category": "nature",
+        "difficulty": "medium",
+        "options": [
+          "Dolphins use names",
+          "Cows have best friends",
+          "Penguins can fly",
+          "Sea otters hold hands"
+        ],
+        "correctOption": 2
+      },
+      {
+        "prompt": "Which technology fact is the lie?",
+        "category": "technology",
+        "difficulty": "medium",
+        "options": [
+          "The first computer mouse was wooden",
+          "Email predates the web",
+          "Bluetooth is named after a king",
+          "Wi-Fi stands for Wireless Fidelity"
+        ],
+        "correctOption": 3
+      },
+      {
+        "prompt": "Which geography fact is the lie?",
+        "category": "world",
+        "difficulty": "hard",
+        "options": [
+          "Africa spans four hemispheres",
+          "Australia is wider than the Moon",
+          "Every desert is hot",
+          "Canada has many lakes"
+        ],
+        "correctOption": 2
+      },
+      {
+        "prompt": "Which statement is the lie?",
+        "category": "nature",
+        "difficulty": "easy",
+        "options": [
+          "Octopuses have three hearts.",
+          "Bananas are berries.",
+          "Goldfish have a three-second memory."
+        ],
+        "correctOption": 2
+      },
+      {
+        "prompt": "Spot the false fact in set 1.",
+        "category": "nature",
+        "difficulty": "easy",
+        "options": [
+          "Octopuses have three hearts.",
+          "Bananas are berries.",
+          "Goldfish have a three-second memory."
+        ],
+        "correctOption": 2
+      },
+      {
+        "prompt": "Spot the false fact in set 2.",
+        "category": "space",
+        "difficulty": "easy",
+        "options": [
+          "Venus is hotter than Mercury.",
+          "A day on Venus is longer than its year.",
+          "Venus has two moons."
+        ],
+        "correctOption": 2
+      },
+      {
+        "prompt": "Spot the false fact in set 3.",
+        "category": "food",
+        "difficulty": "easy",
+        "options": [
+          "Honey can stay edible for thousands of years.",
+          "Apples float because they contain air.",
+          "Carrots were invented in 1998."
+        ],
+        "correctOption": 2
+      },
+      {
+        "prompt": "Spot the false fact in set 4.",
+        "category": "world",
+        "difficulty": "easy",
+        "options": [
+          "Scotland's national animal is the unicorn.",
+          "Oxford University is older than the Aztec Empire.",
+          "The Eiffel Tower is in Rome."
+        ],
+        "correctOption": 2
+      },
+      {
+        "prompt": "Spot the false fact in set 5.",
+        "category": "animals",
+        "difficulty": "easy",
+        "options": [
+          "A group of flamingos is called a flamboyance.",
+          "Sea otters hold hands while sleeping.",
+          "Penguins can fly short distances."
+        ],
+        "correctOption": 2
+      },
+      {
+        "prompt": "Spot the false fact in set 6.",
+        "category": "technology",
+        "difficulty": "easy",
+        "options": [
+          "The first webcam watched a coffee pot.",
+          "The first computer mouse was made of wood.",
+          "Bluetooth is named after a blue whale."
+        ],
+        "correctOption": 2
+      },
+      {
+        "prompt": "Spot the false fact in set 7.",
+        "category": "science",
+        "difficulty": "easy",
+        "options": [
+          "Wombat droppings are cube-shaped.",
+          "Cows have best friends.",
+          "Koalas are bears."
+        ],
+        "correctOption": 2
+      },
+      {
+        "prompt": "Spot the false fact in set 8.",
+        "category": "nature",
+        "difficulty": "easy",
+        "options": [
+          "Sound travels faster in water than air.",
+          "Lightning is hotter than the Sun's surface.",
+          "The Moon makes its own light."
+        ],
+        "correctOption": 2
+      },
+      {
+        "prompt": "Spot the false fact in set 9.",
+        "category": "space",
+        "difficulty": "medium",
+        "options": [
+          "The shortest war lasted under an hour.",
+          "Nintendo was founded in the 1800s.",
+          "Chess was invented on Mars."
+        ],
+        "correctOption": 2
+      },
+      {
+        "prompt": "Spot the false fact in set 10.",
+        "category": "food",
+        "difficulty": "medium",
+        "options": [
+          "Some turtles breathe through their rear end.",
+          "Sharks existed before trees.",
+          "All sharks must keep swimming every second."
+        ],
+        "correctOption": 2
+      },
+      {
+        "prompt": "Spot the false fact in set 11.",
+        "category": "world",
+        "difficulty": "medium",
+        "options": [
+          "A cloud can weigh over a million pounds.",
+          "There are lakes beneath Antarctica.",
+          "Rainbows only have four colours."
+        ],
+        "correctOption": 2
+      },
+      {
+        "prompt": "Spot the false fact in set 12.",
+        "category": "animals",
+        "difficulty": "medium",
+        "options": [
+          "Your body contains enough iron to make a small nail.",
+          "Humans share DNA with bananas.",
+          "Adults have more bones than babies."
+        ],
+        "correctOption": 2
+      },
+      {
+        "prompt": "Spot the false fact in set 13.",
+        "category": "technology",
+        "difficulty": "medium",
+        "options": [
+          "The hashtag symbol is called an octothorpe.",
+          "Email existed before the public web.",
+          "Wi-Fi stands for Wireless Fidelity officially."
+        ],
+        "correctOption": 2
+      },
+      {
+        "prompt": "Spot the false fact in set 14.",
+        "category": "science",
+        "difficulty": "medium",
+        "options": [
+          "A jiffy is a real unit of time.",
+          "Hot water can freeze faster than cold water.",
+          "Glass is a slow-moving liquid at room temperature."
+        ],
+        "correctOption": 2
+      }
+    ]
+  },
+  {
+    "id": "rapid-fire-quiz",
+    "title": "Rapid Fire Quiz",
+    "description": "Quick questions, clean answers, serious bragging rights.",
+    "icon": "timer",
+    "category": "Quiz",
+    "estimatedMinutes": 10,
+    "responseMode": "quiz",
+    "experience": "competitive",
+    "defaultRounds": 8,
+    "minPlayers": 2,
+    "questions": [
+      {
+        "prompt": "Which planet is known as the Red Planet?",
+        "category": "science",
+        "difficulty": "easy",
+        "options": [
+          "Venus",
+          "Mars",
+          "Jupiter",
+          "Mercury"
+        ],
+        "correctOption": 1
+      },
+      {
+        "prompt": "How many sides does a hexagon have?",
+        "category": "general",
+        "difficulty": "easy",
+        "options": [
+          "Five",
+          "Six",
+          "Seven",
+          "Eight"
+        ],
+        "correctOption": 1
+      },
+      {
+        "prompt": "Which ocean is the largest?",
+        "category": "world",
+        "difficulty": "easy",
+        "options": [
+          "Atlantic",
+          "Indian",
+          "Pacific",
+          "Arctic"
+        ],
+        "correctOption": 2
+      },
+      {
+        "prompt": "What is the capital of Japan?",
+        "category": "world",
+        "difficulty": "easy",
+        "options": [
+          "Kyoto",
+          "Osaka",
+          "Tokyo",
+          "Seoul"
+        ],
+        "correctOption": 2
+      },
+      {
+        "prompt": "Which element has the symbol Au?",
+        "category": "science",
+        "difficulty": "medium",
+        "options": [
+          "Silver",
+          "Gold",
+          "Copper",
+          "Argon"
+        ],
+        "correctOption": 1
+      },
+      {
+        "prompt": "Which instrument has 88 keys?",
+        "category": "music",
+        "difficulty": "easy",
+        "options": [
+          "Piano",
+          "Violin",
+          "Harp",
+          "Clarinet"
+        ],
+        "correctOption": 0
+      },
+      {
+        "prompt": "What is the fastest land animal?",
+        "category": "nature",
+        "difficulty": "easy",
+        "options": [
+          "Lion",
+          "Horse",
+          "Cheetah",
+          "Gazelle"
+        ],
+        "correctOption": 2
+      },
+      {
+        "prompt": "Which language has the most native speakers?",
+        "category": "world",
+        "difficulty": "medium",
+        "options": [
+          "English",
+          "Spanish",
+          "Mandarin Chinese",
+          "Hindi"
+        ],
+        "correctOption": 2
+      },
+      {
+        "prompt": "How many minutes are in two and a half hours?",
+        "category": "general",
+        "difficulty": "medium",
+        "options": [
+          "120",
+          "130",
+          "150",
+          "180"
+        ],
+        "correctOption": 2
+      },
+      {
+        "prompt": "Which country gifted the Statue of Liberty to the USA?",
+        "category": "history",
+        "difficulty": "medium",
+        "options": [
+          "France",
+          "Italy",
+          "Spain",
+          "Canada"
+        ],
+        "correctOption": 0
+      },
+      {
+        "prompt": "Which animal is the fastest on land?",
+        "category": "music",
+        "difficulty": "easy",
+        "options": [
+          "Cheetah",
+          "Lion",
+          "Horse",
+          "Ostrich"
+        ],
+        "correctOption": 0
+      },
+      {
+        "prompt": "What does CPU stand for?",
+        "category": "science",
+        "difficulty": "easy",
+        "options": [
+          "Central Processing Unit",
+          "Computer Power Utility",
+          "Core Program User",
+          "Central Pixel Unit"
+        ],
+        "correctOption": 0
+      },
+      {
+        "prompt": "What is the largest mammal?",
+        "category": "world",
+        "difficulty": "easy",
+        "options": [
+          "Blue whale",
+          "Elephant",
+          "Giraffe",
+          "Orca"
+        ],
+        "correctOption": 0
+      },
+      {
+        "prompt": "Which country gifted the Statue of Liberty?",
+        "category": "technology",
+        "difficulty": "easy",
+        "options": [
+          "France",
+          "Spain",
+          "Italy",
+          "Canada"
+        ],
+        "correctOption": 0
+      },
+      {
+        "prompt": "What is H2O commonly called?",
+        "category": "music",
+        "difficulty": "easy",
+        "options": [
+          "Water",
+          "Oxygen",
+          "Hydrogen",
+          "Salt"
+        ],
+        "correctOption": 0
+      },
+      {
+        "prompt": "Which gas do plants absorb?",
+        "category": "science",
+        "difficulty": "easy",
+        "options": [
+          "Carbon dioxide",
+          "Oxygen",
+          "Helium",
+          "Hydrogen"
+        ],
+        "correctOption": 0
+      },
+      {
+        "prompt": "How many minutes are in two hours?",
+        "category": "general",
+        "difficulty": "easy",
+        "options": [
+          "120",
+          "100",
+          "90",
+          "180"
+        ],
+        "correctOption": 0
+      },
+      {
+        "prompt": "Which continent is Brazil in?",
+        "category": "world",
+        "difficulty": "easy",
+        "options": [
+          "South America",
+          "Europe",
+          "Asia",
+          "Africa"
+        ],
+        "correctOption": 0
+      },
+      {
+        "prompt": "What is the square root of 81?",
+        "category": "general",
+        "difficulty": "easy",
+        "options": [
+          "9",
+          "8",
+          "7",
+          "6"
+        ],
+        "correctOption": 0
+      },
+      {
+        "prompt": "Which bird is associated with delivering babies in stories?",
+        "category": "culture",
+        "difficulty": "easy",
+        "options": [
+          "Stork",
+          "Eagle",
+          "Owl",
+          "Swan"
+        ],
+        "correctOption": 0
+      }
+    ]
+  },
+  {
+    "id": "word-association",
+    "title": "Word Association",
+    "description": "Choose the word your instinct connects first.",
+    "icon": "words",
+    "category": "Creative",
+    "estimatedMinutes": 10,
+    "responseMode": "choice",
+    "experience": "voting",
+    "defaultRounds": 6,
+    "minPlayers": 2,
+    "questions": [
+      {
+        "prompt": "What first comes to mind when you hear “summer”?",
+        "category": "instinct",
+        "difficulty": "easy",
+        "options": [
+          "Beach",
+          "Holiday",
+          "Sunshine",
+          "Ice cream"
+        ]
+      },
+      {
+        "prompt": "What first comes to mind when you hear “home”?",
+        "category": "instinct",
+        "difficulty": "easy",
+        "options": [
+          "Family",
+          "Comfort",
+          "Food",
+          "Quiet"
+        ]
+      },
+      {
+        "prompt": "What first comes to mind when you hear “adventure”?",
+        "category": "instinct",
+        "difficulty": "easy",
+        "options": [
+          "Travel",
+          "Risk",
+          "Friends",
+          "Discovery"
+        ]
+      },
+      {
+        "prompt": "What first comes to mind when you hear “success”?",
+        "category": "instinct",
+        "difficulty": "medium",
+        "options": [
+          "Freedom",
+          "Money",
+          "Pride",
+          "Impact"
+        ]
+      },
+      {
+        "prompt": "What first comes to mind when you hear “party”?",
+        "category": "instinct",
+        "difficulty": "easy",
+        "options": [
+          "Music",
+          "Friends",
+          "Food",
+          "Dancing"
+        ]
+      },
+      {
+        "prompt": "What first comes to mind when you hear “future”?",
+        "category": "instinct",
+        "difficulty": "medium",
+        "options": [
+          "Opportunity",
+          "Unknown",
+          "Technology",
+          "Dreams"
+        ]
+      },
+      {
+        "prompt": "What first comes to mind when you hear “weekend”?",
+        "category": "instinct",
+        "difficulty": "easy",
+        "options": [
+          "Sleep",
+          "Plans",
+          "Friends",
+          "Freedom"
+        ]
+      },
+      {
+        "prompt": "What first comes to mind when you hear “challenge”?",
+        "category": "instinct",
+        "difficulty": "medium",
+        "options": [
+          "Growth",
+          "Stress",
+          "Competition",
+          "Focus"
+        ]
+      },
+      {
+        "prompt": "Which word connects first: sunrise?",
+        "category": "instinct",
+        "difficulty": "easy",
+        "options": [
+          "Sunrise",
+          "Alarm",
+          "Coffee",
+          "Fresh"
+        ]
+      },
+      {
+        "prompt": "Which word connects first: weekend?",
+        "category": "instinct",
+        "difficulty": "easy",
+        "options": [
+          "Weekend",
+          "Sleep",
+          "Friends",
+          "Adventure"
+        ]
+      },
+      {
+        "prompt": "Which word connects first: group chat?",
+        "category": "instinct",
+        "difficulty": "easy",
+        "options": [
+          "Group chat",
+          "Memes",
+          "Plans",
+          "Chaos"
+        ]
+      },
+      {
+        "prompt": "Which word connects first: holiday?",
+        "category": "instinct",
+        "difficulty": "easy",
+        "options": [
+          "Holiday",
+          "Beach",
+          "Food",
+          "Photos"
+        ]
+      },
+      {
+        "prompt": "Which word connects first: success?",
+        "category": "instinct",
+        "difficulty": "easy",
+        "options": [
+          "Success",
+          "Money",
+          "Freedom",
+          "Pride"
+        ]
+      },
+      {
+        "prompt": "Which word connects first: home?",
+        "category": "instinct",
+        "difficulty": "easy",
+        "options": [
+          "Home",
+          "Family",
+          "Comfort",
+          "Wi-Fi"
+        ]
+      },
+      {
+        "prompt": "Which word connects first: music?",
+        "category": "instinct",
+        "difficulty": "easy",
+        "options": [
+          "Music",
+          "Dance",
+          "Lyrics",
+          "Memories"
+        ]
+      },
+      {
+        "prompt": "Which word connects first: future?",
+        "category": "instinct",
+        "difficulty": "easy",
+        "options": [
+          "Future",
+          "Exciting",
+          "Unknown",
+          "Bright"
+        ]
+      },
+      {
+        "prompt": "Which word connects first: rain?",
+        "category": "instinct",
+        "difficulty": "easy",
+        "options": [
+          "Rain",
+          "Cosy",
+          "Traffic",
+          "Fresh"
+        ]
+      },
+      {
+        "prompt": "Which word connects first: friendship?",
+        "category": "instinct",
+        "difficulty": "easy",
+        "options": [
+          "Friendship",
+          "Trust",
+          "Laughter",
+          "Loyalty"
+        ]
+      },
+      {
+        "prompt": "Which word connects first: phone?",
+        "category": "instinct",
+        "difficulty": "easy",
+        "options": [
+          "Phone",
+          "Messages",
+          "Camera",
+          "Distraction"
+        ]
+      },
+      {
+        "prompt": "Which word connects first: party?",
+        "category": "instinct",
+        "difficulty": "easy",
+        "options": [
+          "Party",
+          "Games",
+          "Dancing",
+          "Snacks"
+        ]
+      }
+    ]
+  }
+]

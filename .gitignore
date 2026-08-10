@@ -1,0 +1,10 @@
+node_modules/
+dist/
+target/
+.env
+*.local
+*.tsbuildinfo
+*.log
+.run-logs/
+**/src-tauri/gen/
+.DS_Store

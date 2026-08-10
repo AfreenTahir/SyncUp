@@ -1,0 +1,14 @@
+FROM rust:1-bookworm AS builder
+WORKDIR /app
+COPY services/game-server ./services/game-server
+COPY question-packs ./question-packs
+RUN cargo build --release --manifest-path services/game-server/Cargo.toml
+
+FROM debian:bookworm-slim
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates && rm -rf /var/lib/apt/lists/*
+WORKDIR /app
+COPY --from=builder /app/services/game-server/target/release/syncup-game-server /usr/local/bin/syncup-game-server
+COPY question-packs ./question-packs
+ENV SYNCUP_BIND=0.0.0.0:3000
+EXPOSE 3000
+CMD ["syncup-game-server"]

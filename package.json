@@ -1,0 +1,18 @@
+{
+  "name": "syncup",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": ["apps/player-web", "apps/host-desktop"],
+  "devDependencies": {
+    "jsdom": "^29.0.0"
+  },
+  "scripts": {
+    "dev:server": "node scripts/cargo.mjs run --manifest-path services/game-server/Cargo.toml",
+    "dev:player": "npm run dev --workspace @syncup/player-web",
+    "dev:host": "npm run tauri:dev --workspace @syncup/host-desktop",
+    "dev:host:web": "npm run dev --workspace @syncup/host-desktop",
+    "build": "node scripts/workspaces.mjs build",
+    "test": "node scripts/cargo.mjs test --manifest-path services/game-server/Cargo.toml && node scripts/workspaces.mjs test",
+    "check:rust": "node scripts/cargo.mjs fmt --manifest-path services/game-server/Cargo.toml -- --check && node scripts/cargo.mjs test --manifest-path services/game-server/Cargo.toml && node scripts/cargo.mjs clippy --manifest-path services/game-server/Cargo.toml --all-targets --all-features -- -D warnings"
+  }
+}
