@@ -16,6 +16,41 @@ jobs:
       - name: Apply packaged update
         shell: pwsh
         run: |
+          $updateRoot = Join-Path $env:RUNNER_TEMP "syncup-update"
+          Expand-Archive -Path same-wifi-update-v2.zip -DestinationPath $updateRoot -Force
+          Copy-Item -LiteralPath "$updateRoot/apps/host-desktop/src-tauri/Cargo.toml" -Destination "apps/host-desktop/src-tauri/Cargo.toml" -Force
+          Copy-Item -LiteralPath "$updateRoot/apps/host-desktop/src-tauri/Cargo.lock" -Destination "apps/host-desktop/src-tauri/Cargo.lock" -Force
+          Copy-Item -LiteralPath "$updateRoot/apps/host-desktop/src-tauri/build.rs" -Destination "apps/host-desktop/src-tauri/build.rs" -Force
+          Copy-Item -LiteralPath "$updateRoot/apps/host-desktop/src-tauri/src/lib.rs" -Destination "apps/host-desktop/src-tauri/src/lib.rs" -Force
+          Copy-Item -LiteralPath "$updateRoot/apps/host-desktop/src/App.tsx" -Destination "apps/host-desktop/src/App.tsx" -Force
+          Remove-Item -LiteralPath same-wifi-update-v2.zip
+
+      - name: Commit updated application
+        shell: bash
+        run: |
+          git config user.name "Afreen Tahir"
+          git config user.email "AfreenTahir@users.noreply.github.com"
+          git add -A
+          git commit -m "Add same Wi-Fi standalone mode"
+          git push
+name: Apply same Wi-Fi update
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  apply-update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+
+      - name: Apply packaged update
+        shell: pwsh
+        run: |
           Expand-Archive -Path same-wifi-update-v2.zip -DestinationPath . -Force
           Remove-Item -LiteralPath same-wifi-update-v2.zip
           Remove-Item -LiteralPath .github/workflows/apply-local-update.yml
