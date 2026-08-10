@@ -1,0 +1,47 @@
+name: Build Windows release
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-windows:
+    runs-on: windows-latest
+
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Set up Rust
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: Cache Rust build
+        uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: apps/host-desktop/src-tauri
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build SyncUp for Windows
+        run: npm run tauri:build --workspace @syncup/host-desktop
+
+      - name: Prepare release executable
+        shell: pwsh
+        run: |
+          New-Item -ItemType Directory -Force release-assets
+          Copy-Item apps/host-desktop/src-tauri/target/release/syncup-host.exe release-assets/SyncUp-Host-v0.1.0.exe
+
+      - name: Attach executable to v0.1.0
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release upload v0.1.0 release-assets/SyncUp-Host-v0.1.0.exe --clobber
